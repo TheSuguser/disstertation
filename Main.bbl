@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{vzliobaite2010learning}
+Indr{\.e} {\v{Z}}liobait{\.e}.
+\newblock Learning under concept drift: an overview.
+\newblock {\em arXiv preprint arXiv:1010.4784}, 2010.
+
 \bibitem{zhang2015character}
 Xiang Zhang, Junbo Zhao, and Yann LeCun.
 \newblock Character-level convolutional networks for text classification.
@@ -48,6 +53,48 @@ Joao Gama, Pedro Medas, Gladys Castillo, and Pedro Rodrigues.
 \newblock In {\em Brazilian symposium on artificial intelligence}, pages
   286--295. Springer, 2004.
 
+\bibitem{sakaki2010earthquake}
+Takeshi Sakaki, Makoto Okazaki, and Yutaka Matsuo.
+\newblock Earthquake shakes twitter users: real-time event detection by social
+  sensors.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web}, pages 851--860. ACM, 2010.
+
+\bibitem{selamat2002web}
+Ali Selamat, Hidekazu Yanagimoto, and Sigeru Omatu.
+\newblock Web news classification using neural networks based on pca.
+\newblock In {\em SICE-ANNUAL CONFERENCE-}, number~4, pages 2389--2394. SICE;
+  1999, 2002.
+
+\bibitem{goworek2016relationship}
+Helen Goworek, Patsy Perry, and Anthony Kent.
+\newblock The relationship between design and marketing in the fashion
+  industry.
+\newblock {\em Journal of Fashion Marketing and Management}, 20(3), 2016.
+
+\bibitem{sparck1972statistical}
+Karen Sparck~Jones.
+\newblock A statistical interpretation of term specificity and its application
+  in retrieval.
+\newblock {\em Journal of documentation}, 28(1):11--21, 1972.
+
+\bibitem{Goncalves2014}
+Paulo~M. Gon{\c{c}}alves, Silas~G.T. de~Carvalho~Santos, Roberto~S.M. Barros,
+  and Davi~C.L. Vieira.
+\newblock A comparative study on concept drift detectors.
+\newblock {\em Expert Systems with Applications}, 41(18):8144--8156, dec 2014.
+
+\bibitem{kolter2007dynamic}
+J~Zico Kolter and Marcus~A Maloof.
+\newblock Dynamic weighted majority: An ensemble method for drifting concepts.
+\newblock {\em Journal of Machine Learning Research}, 8(Dec):2755--2790, 2007.
+
+\bibitem{delany2005case}
+Sarah~Jane Delany, P{\'a}draig Cunningham, Alexey Tsymbal, and Lorcan Coyle.
+\newblock A case-based technique for tracking concept drift in spam filtering.
+\newblock In {\em Applications and Innovations in Intelligent Systems XII},
+  pages 3--16. Springer, 2005.
+
 \bibitem{wang2003mining}
 Haixun Wang, Wei Fan, Philip~S Yu, and Jiawei Han.
 \newblock Mining concept-drifting data streams using ensemble classifiers.
@@ -58,13 +105,6 @@ Haixun Wang, Wei Fan, Philip~S Yu, and Jiawei Han.
 Ralf Klinkenberg and Thorsten Joachims.
 \newblock Detecting concept drift with support vector machines.
 \newblock In {\em ICML}, pages 487--494, 2000.
-
-\bibitem{baena2006ear}
-Manuel Baena-Garca, Jos del Campo-vila, Ral Fidalgo, Albert Bifet, Ricard
-  Gavald, and Rafael Morales-Bueno.
-\newblock Early drift detection method.
-\newblock {\em Fourth International Workshop on Knowledge Discovery from Data
-  Streams}, 2006.
 
 \bibitem{page1954continuous}
 Ewan~S Page.
@@ -106,12 +146,6 @@ Ryszard~S Michalski, Jaime~G Carbonell, and Tom~M Mitchell.
 \newblock {\em Machine learning: An artificial intelligence approach}.
 \newblock Springer Science \& Business Media, 2013.
 
-\bibitem{Goncalves2014}
-Paulo~M. Gon{\c{c}}alves, Silas~G.T. de~Carvalho~Santos, Roberto~S.M. Barros,
-  and Davi~C.L. Vieira.
-\newblock A comparative study on concept drift detectors.
-\newblock {\em Expert Systems with Applications}, 41(18):8144--8156, dec 2014.
-
 \bibitem{Li2017}
 Hang Li.
 \newblock Deep learning for natural language processing: advantages and
@@ -128,12 +162,6 @@ Y-Lan Boureau, Jean Ponce, and Yann LeCun.
 \newblock A theoretical analysis of feature pooling in visual recognition.
 \newblock In {\em Proceedings of the 27th international conference on machine
   learning (ICML-10)}, pages 111--118, 2010.
-
-\bibitem{sparck1972statistical}
-Karen Sparck~Jones.
-\newblock A statistical interpretation of term specificity and its application
-  in retrieval.
-\newblock {\em Journal of documentation}, 28(1):11--21, 1972.
 
 \bibitem{mikolov2013distributed}
 Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.

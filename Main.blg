@@ -10,6 +10,8 @@ A level-1 auxiliary file: Experiment2.aux
 A level-1 auxiliary file: Conclusions.aux
 A level-1 auxiliary file: Appendices.aux
 Database file #1: reference.bib
+Warning--I didn't find a database entry for "baena2006ear"
+Warning--there's a number but no series in selamat2002web
 Warning--empty journal in Joulin2016
 Warning--empty journal in Graves2013
 Warning--empty year in Graves2013
@@ -19,45 +21,45 @@ Warning--empty journal in Mikolov2013
 Warning--empty year in Mikolov2013
 Warning--empty journal in Zhang2015
 Warning--empty year in Zhang2015
-You've used 37 entries,
+You've used 42 entries,
             1791 wiz_defined-function locations,
-            676 strings with 10062 characters,
-and the built_in function-call counts, 10156 in all, are:
-= -- 958
-> -- 382
-< -- 16
-+ -- 142
-- -- 105
-* -- 629
-:= -- 1465
-add.period$ -- 116
-call.type$ -- 37
-change.case$ -- 36
+            705 strings with 10907 characters,
+and the built_in function-call counts, 11667 in all, are:
+= -- 1117
+> -- 421
+< -- 20
++ -- 157
+- -- 115
+* -- 719
+:= -- 1670
+add.period$ -- 134
+call.type$ -- 42
+change.case$ -- 41
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 509
-empty$ -- 1002
-format.name$ -- 105
-if$ -- 2370
+cite$ -- 52
+duplicate$ -- 588
+empty$ -- 1155
+format.name$ -- 115
+if$ -- 2738
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 38
-newline$ -- 184
-num.names$ -- 37
-pop$ -- 153
+int.to.str$ -- 42
+missing$ -- 43
+newline$ -- 209
+num.names$ -- 42
+pop$ -- 171
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 300
+skip$ -- 347
 stack$ -- 0
-substring$ -- 742
-swap$ -- 183
-text.length$ -- 16
+substring$ -- 864
+swap$ -- 216
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 103
-width$ -- 39
-write$ -- 396
-(There were 9 warnings)
+warning$ -- 10
+while$ -- 119
+width$ -- 44
+write$ -- 455
+(There were 11 warnings)

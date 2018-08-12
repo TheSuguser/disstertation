@@ -2,15 +2,48 @@
 \label{background}
 
 \begin{quote}
-This chapter introduces the general context of text classification problem. I present the motivation for the fashion news popularity prediction. In addition, a brief introduction of the concept drift is given. Also, a detailed review of some latest concept drift detectors is presented. In addition, basic theory of deep learning model and its application in natural language is discussed. An introduction of some latest deep learning models in text classification is presented at last.
+This chapter introduces the general context of text classification problem. I present the motivation for the fashion news popularity prediction. In addition, a brief introduction of the concept drift is given. Also, a detailed review of some latest concept drift detectors is presented. In addition, basic theory of deep learning model and its application in natural language is discussed. An introduction of some latest deep learning models in text classification is presented at last. 
 \end{quote}
 
-\section{Concept Drift}
-\subsection{Definition}
-\subsection{Algorithms}
-As of today, many concept drift have been proposed. Most of the concept drift detectors are composed of two parts. One is a base learner, such as decision tree~\cite{wang2003mining}, support vector machine~\cite{klinkenberg2000detecting}, which is used to classify the incoming data. Then, The prediction result is compared with the true label and compute the metrics. Another part is the drift detection method which indicate whether the concept drift occurs or not based on the classification result. If the concept drift occurs, according to different detector framework, the base learner will re-trained in a new subset of the instances. For each incoming instance, the framework repeat the process. 
+\section{Text Classification and News Popularity Prediction}
 
-According to the number of citations, there are eight popular concept drift detectors, DDM~\cite{gama2004learning}, EDDM~\cite{baena2006ear}, PHT~\cite{page1954continuous}, ADWIN~\cite{bifet2007learning}, Paired Learners~\cite{bach2008paired}, ECDD~\cite{ross2012exponentially}, DoF~\cite{sobhani2011new}, and STEPD~\cite{nishida2007detecting}. The most popular and effective method is the Drift Detection Method (DDM). Its mechanism is simple and easy to understand. DDM uses a base learning (decision tree) to classify the incoming instance and the the online error-rate is computed with the prediction result. In the probably approximately correct learning model~\cite{michalski2013machine}, it is assumed that the error rate of the base learner will decrease when the number of training instance increases if the distribution of the incoming instances is stationary. Thus, if the model detects a significant increase of the online error-rate, it suggests the concept drift occurs. 
+Predicting news popularity is not a new topic in the field of machine learning. However, most of the previous prediction method is based on the information propagation on online social network. Sakaki et al. considered each social network user as a sensor and used machine learning to do the prediction ~\cite{sakaki2010earthquake}. Wu and Shen use the topology reconstruction and inferences of network diffusion to predict the popularity of the twitter news~\cite{wu2015analyzing}. Few of the them paid attention to the news themselves. Most of the classification model focusing on the text itself is classifying the news into its category. For example, Yahoo tried use machine learning to classify the sports news into different classes of sports~\cite{selamat2002web}.
+
+Applying text classification model to news content does not make sense because even a professional editor can not know exactly if the news would be popular when he sees the news at the first time. However, fashion news is different to the conventional news. Marketing and advertising play an important role in fashion industry. The close connection between marketing and fashion determines brand, celebrities, and products contributes to the heat of the fashion news~\cite{goworek2016relationship}. Simply speaking, predicting fashion news popularity is a task that extracting which brands, products, and celebrities attract most attention. Based on this hypothesis, it works that predicting the fashion news popularity from the news itself rather than tracking the information flow of the news. 
+
+Currently, here are two main types of text classification methods. One is the conventional machine learning approaches which require detailed feature engineering to achieve good prediction results. With this type of method, the quality of the hard-crafted feature determines the final performance of the classifier. Bag-of-words or bag-of-ngrams and its TFIDF are normally used feature extractor. For the bag-of-words(ngrams), the counts of each word(ngram) is used as the feature. For the TFIDF, the counts is used as the term-frequency~\cite{sparck1972statistical}. IDF is the inverse document frequency which is a measure of how much information the word provides. The IDF can be computed by the following equation
+\begin{equation}
+\mbox{IDF} = \mbox{log} \frac{N}{n_t}
+\end{equation}
+where $N$ is the total number of documents in the corpus and $n_t$ is the number of documents where the word(ngram) appears. Thus, the term frequency-inverse document frequency (TFIDF) is defined as
+\begin{equation}
+\mbox{TFIDF} = \mbox{TF} \times \mbox{IDF}
+\end{equation}
+
+Another type of method uses deep learning technique, including deep learning neural network (DNN), convolutional neural network (CNN), and recurrent neural network (RNN). Different architecture of the models determines the pros and cons of the model. We will discuss deep learning model in detail in Section \ref{dl}.
+
+
+
+\section{Concept Drift}
+\subsection{Definition and Framework}
+Learning from sequence data is a topic that addresses to many machine learning filed, such as data mining, natural language process, and pattern recognition. The main difficulty of learning from time series data is that the target concept may change over time which is known as the concept drift problem~\cite{Goncalves2014}. For example, in fashion news popularity problem, the news about Under Amour might be popular in 2015 while it is unwelcome in 2018. In this case, a conventional framework of machine learning may not about to classify the instance from different year correctly.
+
+According to the reason of the change, there are two type of change. The first one is the real concept drift which occurs when a set of example has class labels at one time and has different labels at another time~\cite{kolter2007dynamic}. Another type of drift is the virtual concept drift which occurs when the target concepts remain the same but the data distribution changes~\cite{delany2005case}. However, in the real world problem, these two concept drifts often occur together.
+
+As of today, many concept drift have been proposed. Most of the concept drift detectors are composed of two parts. One is a base learner, such as decision tree~\cite{wang2003mining}, support vector machine~\cite{klinkenberg2000detecting}, which is used to classify the incoming data. Then, The prediction result is compared with the true label and compute the metrics. Another part is the drift detection method which indicate whether the concept drift occurs or not based on the classification result. If the concept drift occurs, according to different detector framework, the base learner will re-trained in a new subset of the instances. For each incoming instance, the framework repeat the process.  
+
+To decrease the training time, most of the concept drift detectors uses incremental learning framework, which show in Figure \ref{concept_drift}. Let $\mathbf{x}_t \in \mathbb{R}^p$ is the feature vector observed at time $t$ and $y_t \in \mathbb{R}$ us the corresponding label. We assume the stream $\mathbf{X}^H = (\mathbf{x}_1, \mathbf{x}_2, ..., \mathbf{x}_t)$ as the historical data and the vector $\mathbf{x}_{t+1}$ as the test data. In incremental learning framework, we use all or a subset of the historical data $\mathbf{X}^H$ to train the learner $\mathcal{L}_t$ to predict the next instance $\mathbf{x}_{t+1}$. At next step, the label of $\mathbf{x}_{t+1}$ is available. Thus, we are able to repeat this process. The key function of the concept drift detector is to select a suitable subset of the historical data $\mathbf{X}^H$ which can represent the distribution of the data.
+ \begin{figure}
+\centering
+\caption{The incremental learning framework at time $t$~\cite{vzliobaite2010learning}}
+\label{concept_drift}
+\includegraphics{concept_drift.png}
+
+\end{figure}
+
+
+\subsection{Concept Drift detectors}
+According to the number of citations, there are four popular concept drift detectors, DDM~\cite{gama2004learning}, EDDM~\cite{baena2006ear}, PHT~\cite{page1954continuous}, ADWIN~\cite{bifet2007learning}, Paired Learners~\cite{bach2008paired}, ECDD~\cite{ross2012exponentially}, DoF~\cite{sobhani2011new}, and STEPD~\cite{nishida2007detecting}. The most popular and effective method is the Drift Detection Method (DDM). Its mechanism is simple and easy to understand. DDM uses a base learning (decision tree) to classify the incoming instance and the the online error-rate is computed with the prediction result. In the probably approximately correct learning model~\cite{michalski2013machine}, it is assumed that the error rate of the base learner will decrease when the number of training instance increases if the distribution of the incoming instances is stationary. Thus, if the model detects a significant increase of the online error-rate, it suggests the concept drift occurs. 
 
 Suppose every instance in the form of $(\mathbf{x}_i, y_i)$. The base learner gives the prediction $\hat{y}_i$ that can be used to compute the error-rate $p_i$ and the standard deviation $s_i$ given by 
 \begin{equation}
@@ -40,6 +73,7 @@ While the number of $1$ is great than the threshold $\theta$, it indicates the c
 Though the paired learner is a very creative method compared with other approaches. It is the worst methods dealing with the abrupt concept drift. As it uses two learner, PL is the slowest among these methods.
 
 \section{Deep Learning Models in Text Classification}
+\label{dl}
 
 Deep learning refers to the machine learning techniques for learning and utilizing neural networks with multiple layers, such as deep neural network (DNN), convolutional neural network (CNN), recurrent neural network (RNN). Deep learning has proven effective in reshaping the processing of speech recognition, and machine vision in a revolutionary way. In speech, image, deep learning effectively addresses the semantic gap problem by learning high-level concepts from raw data in a direct manner. Compared with these tasks, natural language processing is less straightforward as it is doubtful whether the neural representations learned from textual data can provide equally direct insight onto natural language. 
 

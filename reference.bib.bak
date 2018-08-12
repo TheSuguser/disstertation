@@ -447,4 +447,72 @@
   year    = {2015},
 }
 
+@Article{Mikolov2013,
+  author      = {Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey Dean},
+  title       = {Efficient Estimation of Word Representations in Vector Space},
+  abstract    = {We propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities.},
+  date        = {2013-01-16},
+  eprint      = {http://arxiv.org/abs/1301.3781v3},
+  eprintclass = {cs.CL},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1301.3781v3:PDF},
+  keywords    = {cs.CL},
+}
+
+@Article{plaut1987learning,
+  author    = {Plaut, David C and Hinton, Geoffrey E},
+  title     = {Learning sets of filters using back-propagation},
+  journal   = {Computer Speech \& Language},
+  year      = {1987},
+  volume    = {2},
+  number    = {1},
+  pages     = {35--61},
+  publisher = {Academic Press},
+}
+
+@Article{kolter2007dynamic,
+  author  = {Kolter, J Zico and Maloof, Marcus A},
+  title   = {Dynamic weighted majority: An ensemble method for drifting concepts},
+  journal = {Journal of Machine Learning Research},
+  year    = {2007},
+  volume  = {8},
+  number  = {Dec},
+  pages   = {2755--2790},
+}
+
+@InCollection{delany2005case,
+  author    = {Delany, Sarah Jane and Cunningham, P{\'a}draig and Tsymbal, Alexey and Coyle, Lorcan},
+  title     = {A case-based technique for tracking concept drift in spam filtering},
+  booktitle = {Applications and Innovations in Intelligent Systems XII},
+  publisher = {Springer},
+  year      = {2005},
+  pages     = {3--16},
+}
+
+@Article{vzliobaite2010learning,
+  author  = {{\v{Z}}liobait{\.e}, Indr{\.e}},
+  title   = {Learning under concept drift: an overview},
+  journal = {arXiv preprint arXiv:1010.4784},
+  year    = {2010},
+}
+
+@InProceedings{sakaki2010earthquake,
+  author       = {Sakaki, Takeshi and Okazaki, Makoto and Matsuo, Yutaka},
+  title        = {Earthquake shakes Twitter users: real-time event detection by social sensors},
+  booktitle    = {Proceedings of the 19th international conference on World wide web},
+  year         = {2010},
+  pages        = {851--860},
+  organization = {ACM},
+}
+
+@InProceedings{selamat2002web,
+  author       = {Selamat, Ali and Yanagimoto, Hidekazu and Omatu, Sigeru},
+  title        = {Web news classification using neural networks based on PCA},
+  booktitle    = {SICE-ANNUAL CONFERENCE-},
+  year         = {2002},
+  number       = {4},
+  pages        = {2389--2394},
+  organization = {SICE; 1999},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

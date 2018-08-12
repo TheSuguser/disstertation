@@ -470,4 +470,59 @@
   publisher = {Academic Press},
 }
 
+@Article{kolter2007dynamic,
+  author  = {Kolter, J Zico and Maloof, Marcus A},
+  title   = {Dynamic weighted majority: An ensemble method for drifting concepts},
+  journal = {Journal of Machine Learning Research},
+  year    = {2007},
+  volume  = {8},
+  number  = {Dec},
+  pages   = {2755--2790},
+}
+
+@InCollection{delany2005case,
+  author    = {Delany, Sarah Jane and Cunningham, P{\'a}draig and Tsymbal, Alexey and Coyle, Lorcan},
+  title     = {A case-based technique for tracking concept drift in spam filtering},
+  booktitle = {Applications and Innovations in Intelligent Systems XII},
+  publisher = {Springer},
+  year      = {2005},
+  pages     = {3--16},
+}
+
+@Article{vzliobaite2010learning,
+  author  = {{\v{Z}}liobait{\.e}, Indr{\.e}},
+  title   = {Learning under concept drift: an overview},
+  journal = {arXiv preprint arXiv:1010.4784},
+  year    = {2010},
+}
+
+@InProceedings{sakaki2010earthquake,
+  author       = {Sakaki, Takeshi and Okazaki, Makoto and Matsuo, Yutaka},
+  title        = {Earthquake shakes Twitter users: real-time event detection by social sensors},
+  booktitle    = {Proceedings of the 19th international conference on World wide web},
+  year         = {2010},
+  pages        = {851--860},
+  organization = {ACM},
+}
+
+@InProceedings{selamat2002web,
+  author       = {Selamat, Ali and Yanagimoto, Hidekazu and Omatu, Sigeru},
+  title        = {Web news classification using neural networks based on PCA},
+  booktitle    = {SICE-ANNUAL CONFERENCE-},
+  year         = {2002},
+  number       = {4},
+  pages        = {2389--2394},
+  organization = {SICE; 1999},
+}
+
+@Article{goworek2016relationship,
+  author    = {Goworek, Helen and Perry, Patsy and Kent, Anthony},
+  title     = {The relationship between design and marketing in the fashion industry},
+  journal   = {Journal of Fashion Marketing and Management},
+  year      = {2016},
+  volume    = {20},
+  number    = {3},
+  publisher = {Emerald Group Publishing Limited},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
