@@ -221,14 +221,14 @@ Zhang et al. firstly proposed a text classification model based on BLSTM~\cite{z
 
 The prediction result is given by the output layer with the activation function of softmax. Similar to aforementioned models, the loss function is the negative log-likelihood and the optimization is done by the stochastic gradient descent algorithm. In order to help propagating the gradient back to early steps easier, the fan-in technique is used to initialized the weights~\cite{plaut1987learning}. 
 
+Compared with ConvNets-based approach which is the lack of capability to learning temporal features, the BLSTM shows a significant advantage in dealing with long-distance patterns. In addition, the semantic distribution of the BLSTM based model tends to be smoother than the one produced by the ConvNet-based model. 
 
 
 
+\subsection{Attention Based Bidirectional Long Short-Term Memory Network}
+However, BLSTMs are effective models in dealing with sequence, it still has some disadvantages. As not every word in the sequence has the same importance, BLSTMs do not have such ability to capture the most important semantic information in a sentence. The ideal classification model is expected to be able to automatically focus on the words that have decisive effective on the prediction results. Attention mechanism was proposed to tackle this problem. Combining BLSTM and attention mechanism, a attention-based BILSTM (Att-BLSTM) for classification was proposed and outperforms most of the existing approaches~\cite{zhou2016attention}. The structure of A-BLSTM is shown in Figure \ref{attention_blstm}. In this model, the forward and backward is combined by the element-wise sum. 
 
-\subsection{Attention Based Bidirectional Long Short-Term Memory Network1}
-Though, BLSTMs are effective models in dealing with sequence, it still has some disadvantages. As not every word in the sequence has the same importance, BLSTMs do not have such ability to capture the most important semantic information in a sentence. The ideal classification model is expected to be able to automatically focus on the words that have decisive effective on the prediction results. Attention mechanism was proposed to tackle this problem. Combining BLSTM and attention mechanism, a attention-based BILSTM (Att-BLSTM) for classification was proposed and outperforms most of the existing approaches~\cite{zhou2016attention}. The structure of A-BLSTM is shown in Figure \ref{attention_blstm}. In this model, the forward and backward is combined by the element-wise sum. 
-
-Firstly, we suppose $\mathbf{H}$ is the matrix which consists the output vectors $[\mathbf{h}_1, \mathbf{j}_2,...,\mathbf{h}_T]$from BLSTM, where $T$ is the length of the sentence. The representation $\mathbf{r}$ of the sentence is defined as 
+Firstly, we suppose $\mathbf{H}$ is the matrix which consists the output vectors $[\mathbf{h}_1, \mathbf{h}_2,...,\mathbf{h}_T]$from BLSTM, where $T$ is the length of the sentence. The representation $\mathbf{r}$ of the sentence is defined as 
 \begin{equation}
 \mathbf{M} = \mbox{tanh}(\mathbf{H})
 \end{equation}

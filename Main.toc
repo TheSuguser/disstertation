@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.2.1}fastText}{19}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Character-level Convolutional Network}{21}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Bidirectional Long-short Term Memory Network}{24}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Attention Based Bidirectional Long Short-Term Memory Network1}{26}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Attention Based Bidirectional Long Short-Term Memory Network}{27}{subsection.2.2.4}
 \contentsline {chapter}{\numberline {3}Celebrity and Brand Influence on the Popularity of the Fashion News}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Background}{29}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Motivation}{29}{subsection.3.1.1}
