@@ -1,0 +1,450 @@
+% Encoding: UTF-8
+
+@Article{fama1965behavior,
+  author    = {Fama, Eugene F},
+  title     = {The behavior of stock-market prices},
+  journal   = {The journal of Business},
+  year      = {1965},
+  volume    = {38},
+  number    = {1},
+  pages     = {34--105},
+  publisher = {JSTOR},
+}
+
+@Article{prechter2007financial,
+  author    = {Prechter Jr, Robert R and Parker, Wayne D},
+  title     = {The financial/economic dichotomy in social behavioral dynamics: the socionomic perspective},
+  journal   = {The Journal of Behavioral Finance},
+  year      = {2007},
+  volume    = {8},
+  number    = {2},
+  pages     = {84--108},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{Butler1992,
+  author    = {Kirt C. Butler and S.J. Malaikah},
+  title     = {Efficiency and inefficiency in thinly traded stock markets: Kuwait and Saudi Arabia},
+  journal   = {Journal of Banking {\&} Finance},
+  year      = {1992},
+  volume    = {16},
+  number    = {1},
+  pages     = {197--210},
+  month     = {feb},
+  doi       = {10.1016/0378-4266(92)90085-e},
+  publisher = {Elsevier {BV}},
+}
+
+@InProceedings{Gruhl2005,
+  author    = {Daniel Gruhl and R. Guha and Ravi Kumar and Jasmine Novak and Andrew Tomkins},
+  title     = {The predictive power of online chatter},
+  booktitle = {Proceeding of the eleventh {ACM} {SIGKDD} international conference on Knowledge discovery in data mining - {KDD} {\textquotesingle}05},
+  year      = {2005},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/1081870.1081883},
+}
+
+@InProceedings{mishne2006capturing,
+  author    = {Mishne, Gilad and De Rijke, Maarten and others},
+  title     = {Capturing Global Mood Levels using Blog Posts.},
+  booktitle = {AAAI spring symposium: computational approaches to analyzing weblogs},
+  year      = {2006},
+  volume    = {6},
+  pages     = {145--152},
+}
+
+@InProceedings{liu2007arsa,
+  author       = {Liu, Yang and Huang, Xiangji and An, Aijun and Yu, Xiaohui},
+  title        = {ARSA: a sentiment-aware model for predicting sales performance using blogs},
+  booktitle    = {Proceedings of the 30th annual international ACM SIGIR conference on Research and development in information retrieval},
+  year         = {2007},
+  pages        = {607--614},
+  organization = {ACM},
+}
+
+@Article{choi2012predicting,
+  author    = {Choi, Hyunyoung and Varian, Hal},
+  title     = {Predicting the present with Google Trends},
+  journal   = {Economic Record},
+  year      = {2012},
+  volume    = {88},
+  pages     = {2--9},
+  publisher = {Wiley Online Library},
+}
+
+@Article{schumaker2009textual,
+  author    = {Schumaker, Robert P and Chen, Hsinchun},
+  title     = {Textual analysis of stock market prediction using breaking financial news: The AZFin text system},
+  journal   = {ACM Transactions on Information Systems (TOIS)},
+  year      = {2009},
+  volume    = {27},
+  number    = {2},
+  pages     = {12},
+  publisher = {ACM},
+}
+
+@Article{nofsinger2005social,
+  author    = {Nofsinger, John R},
+  title     = {Social mood and financial economics},
+  journal   = {The Journal of Behavioral Finance},
+  year      = {2005},
+  volume    = {6},
+  number    = {3},
+  pages     = {144--160},
+  publisher = {Taylor \& Francis},
+}
+
+@InCollection{kahneman2013prospect,
+  author    = {Kahneman, Daniel and Tversky, Amos},
+  title     = {Prospect theory: An analysis of decision under risk},
+  booktitle = {Handbook of the fundamentals of financial decision making: Part I},
+  publisher = {World Scientific},
+  year      = {2013},
+  pages     = {99--127},
+}
+
+@Article{widmer1996learning,
+  author    = {Widmer, Gerhard and Kubat, Miroslav},
+  title     = {Learning in the presence of concept drift and hidden contexts},
+  journal   = {Machine learning},
+  year      = {1996},
+  volume    = {23},
+  number    = {1},
+  pages     = {69--101},
+  publisher = {Springer},
+}
+
+@InProceedings{gama2004learning,
+  author       = {Gama, Joao and Medas, Pedro and Castillo, Gladys and Rodrigues, Pedro},
+  title        = {Learning with drift detection},
+  booktitle    = {Brazilian symposium on artificial intelligence},
+  year         = {2004},
+  pages        = {286--295},
+  organization = {Springer},
+}
+
+@Article{joulin2016fasttext,
+  author  = {Joulin, Armand and Grave, Edouard and Bojanowski, Piotr and Douze, Matthijs and J{\'e}gou, H{\'e}rve and Mikolov, Tomas},
+  title   = {Fasttext. zip: Compressing text classification models},
+  journal = {arXiv preprint arXiv:1612.03651},
+  year    = {2016},
+}
+
+@Article{behling1985,
+  author   = {Dorothy Behling},
+  title    = {Fashion Change and Demographics: A Model},
+  journal  = {Clothing and Textiles Research Journal},
+  year     = {1985},
+  volume   = {4},
+  number   = {1},
+  pages    = {18-24},
+  abstract = { Researchers in clothing and textiles as well as those in other disciplines have long sought to understand the process of fashion change and identify underlying themes. The theoretical model of fashion change which is presented here is based on changes in women's dress and explains fashion change between 1920 and the present. Incorporated in the model are two well known vertical theories of fashion diffusion. Other components of the model are median age of the population, which determines who society's role models will be; general health of the economy; and governmental restrictions or regulations. The model is also predictive insofar as demographers' predictions are accurate for the remainder of the century. },
+  doi      = {10.1177/0887302X8500400103},
+  eprint   = {https://doi.org/10.1177/0887302X8500400103},
+  url      = { 
+        https://doi.org/10.1177/0887302X8500400103
+    
+},
+}
+
+@Article{wu2015analyzing,
+  author    = {Wu, Bo and Shen, Haiying},
+  title     = {Analyzing and predicting news popularity on Twitter},
+  journal   = {International Journal of Information Management},
+  year      = {2015},
+  volume    = {35},
+  number    = {6},
+  pages     = {702--711},
+  publisher = {Elsevier},
+}
+
+@InProceedings{lerman2010using,
+  author       = {Lerman, Kristina and Hogg, Tad},
+  title        = {Using a model of social dynamics to predict popularity of news},
+  booktitle    = {Proceedings of the 19th international conference on World wide web},
+  year         = {2010},
+  pages        = {621--630},
+  organization = {ACM},
+}
+
+@InProceedings{rizos2016predicting,
+  author       = {Rizos, Georgios and Papadopoulos, Symeon and Kompatsiaris, Yiannis},
+  title        = {Predicting news popularity by mining online discussions},
+  booktitle    = {Proceedings of the 25th International Conference Companion on World Wide Web},
+  year         = {2016},
+  pages        = {737--742},
+  organization = {International World Wide Web Conferences Steering Committee},
+}
+
+@InProceedings{wang2003mining,
+  author       = {Wang, Haixun and Fan, Wei and Yu, Philip S and Han, Jiawei},
+  title        = {Mining concept-drifting data streams using ensemble classifiers},
+  booktitle    = {Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining},
+  year         = {2003},
+  pages        = {226--235},
+  organization = {AcM},
+}
+
+@InProceedings{klinkenberg2000detecting,
+  author    = {Klinkenberg, Ralf and Joachims, Thorsten},
+  title     = {Detecting Concept Drift with Support Vector Machines.},
+  booktitle = {ICML},
+  year      = {2000},
+  pages     = {487--494},
+}
+
+@Article{page1954continuous,
+  author    = {Page, Ewan S},
+  title     = {Continuous inspection schemes},
+  journal   = {Biometrika},
+  year      = {1954},
+  volume    = {41},
+  number    = {1/2},
+  pages     = {100--115},
+  publisher = {JSTOR},
+}
+
+@InProceedings{bifet2007learning,
+  author       = {Bifet, Albert and Gavalda, Ricard},
+  title        = {Learning from time-changing data with adaptive windowing},
+  booktitle    = {Proceedings of the 2007 SIAM international conference on data mining},
+  year         = {2007},
+  pages        = {443--448},
+  organization = {SIAM},
+}
+
+@InProceedings{bach2008paired,
+  author       = {Bach, Stephen H and Maloof, Marcus A},
+  title        = {Paired learners for concept drift},
+  booktitle    = {Data Mining, 2008. ICDM'08. Eighth IEEE International Conference on},
+  year         = {2008},
+  pages        = {23--32},
+  organization = {IEEE},
+}
+
+@Article{ross2012exponentially,
+  author    = {Ross, Gordon J and Adams, Niall M and Tasoulis, Dimitris K and Hand, David J},
+  title     = {Exponentially weighted moving average charts for detecting concept drift},
+  journal   = {Pattern recognition letters},
+  year      = {2012},
+  volume    = {33},
+  number    = {2},
+  pages     = {191--198},
+  publisher = {Elsevier},
+}
+
+@InCollection{sobhani2011new,
+  author    = {Sobhani, Parinaz and Beigy, Hamid},
+  title     = {New drift detection method for data streams},
+  booktitle = {Adaptive and intelligent systems},
+  publisher = {Springer},
+  year      = {2011},
+  pages     = {88--97},
+}
+
+@InProceedings{nishida2007detecting,
+  author       = {Nishida, Kyosuke and Yamauchi, Koichiro},
+  title        = {Detecting concept drift using statistical testing},
+  booktitle    = {International conference on discovery science},
+  year         = {2007},
+  pages        = {264--269},
+  organization = {Springer},
+}
+
+@Article{Goncalves2014,
+  author    = {Paulo M. Gon{\c{c}}alves and Silas G.T. de Carvalho Santos and Roberto S.M. Barros and Davi C.L. Vieira},
+  title     = {A comparative study on concept drift detectors},
+  journal   = {Expert Systems with Applications},
+  year      = {2014},
+  volume    = {41},
+  number    = {18},
+  pages     = {8144--8156},
+  month     = {dec},
+  doi       = {10.1016/j.eswa.2014.07.019},
+  publisher = {Elsevier {BV}},
+}
+
+@Book{michalski2013machine,
+  title     = {Machine learning: An artificial intelligence approach},
+  publisher = {Springer Science \& Business Media},
+  year      = {2013},
+  author    = {Michalski, Ryszard S and Carbonell, Jaime G and Mitchell, Tom M},
+}
+
+@Article{Li2017,
+  author    = {Hang Li},
+  title     = {Deep learning for natural language processing: advantages and challenges},
+  journal   = {National Science Review},
+  year      = {2017},
+  volume    = {5},
+  number    = {1},
+  pages     = {24--26},
+  month     = {sep},
+  doi       = {10.1093/nsr/nwx110},
+  publisher = {Oxford University Press ({OUP})},
+}
+
+@Article{Joulin2016,
+  author      = {Armand Joulin and Edouard Grave and Piotr Bojanowski and Tomas Mikolov},
+  title       = {Bag of Tricks for Efficient Text Classification},
+  year        = {2016},
+  abstract    = {This paper explores a simple and efficient baseline for text classification. Our experiments show that our fast text classifier fastText is often on par with deep learning classifiers in terms of accuracy, and many orders of magnitude faster for training and evaluation. We can train fastText on more than one billion words in less than ten minutes using a standard multicore~CPU, and classify half a million sentences among~312K classes in less than a minute.},
+  date        = {2016-07-06},
+  eprint      = {http://arxiv.org/abs/1607.01759v3},
+  eprintclass = {cs.CL},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1607.01759v3:PDF},
+  keywords    = {cs.CL},
+}
+
+@InProceedings{zhang2015character,
+  author    = {Zhang, Xiang and Zhao, Junbo and LeCun, Yann},
+  title     = {Character-level convolutional networks for text classification},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2015},
+  pages     = {649--657},
+}
+
+@InProceedings{boureau2010theoretical,
+  author    = {Boureau, Y-Lan and Ponce, Jean and LeCun, Yann},
+  title     = {A theoretical analysis of feature pooling in visual recognition},
+  booktitle = {Proceedings of the 27th international conference on machine learning (ICML-10)},
+  year      = {2010},
+  pages     = {111--118},
+}
+
+@Article{sparck1972statistical,
+  author    = {Sparck Jones, Karen},
+  title     = {A statistical interpretation of term specificity and its application in retrieval},
+  journal   = {Journal of documentation},
+  year      = {1972},
+  volume    = {28},
+  number    = {1},
+  pages     = {11--21},
+  publisher = {MCB UP Ltd},
+}
+
+@InProceedings{mikolov2013distributed,
+  author    = {Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+  title     = {Distributed representations of words and phrases and their compositionality},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2013},
+  pages     = {3111--3119},
+}
+
+@Article{bullinaria2013recurrent,
+  author  = {Bullinaria, John A},
+  title   = {Recurrent neural networks},
+  journal = {Neural Computation: Lecture},
+  year    = {2013},
+  volume  = {12},
+}
+
+@Article{hochreiter1997long,
+  author    = {Hochreiter, Sepp and Schmidhuber, J{\"u}rgen},
+  title     = {Long short-term memory},
+  journal   = {Neural computation},
+  year      = {1997},
+  volume    = {9},
+  number    = {8},
+  pages     = {1735--1780},
+  publisher = {MIT Press},
+}
+
+@Article{Greff2017,
+  author    = {Klaus Greff and Rupesh K. Srivastava and Jan Koutnik and Bas R. Steunebrink and Jurgen Schmidhuber},
+  title     = {LSTM: A Search Space Odyssey},
+  journal   = {{IEEE} Transactions on Neural Networks and Learning Systems},
+  year      = {2017},
+  volume    = {28},
+  number    = {10},
+  pages     = {2222--2232},
+  month     = {oct},
+  doi       = {10.1109/tnnls.2016.2582924},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{Graves2013,
+  author      = {Alex Graves},
+  title       = {Generating Sequences With Recurrent Neural Networks},
+  abstract    = {This paper shows how Long Short-term Memory recurrent neural networks can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time. The approach is demonstrated for text (where the data are discrete) and online handwriting (where the data are real-valued). It is then extended to handwriting synthesis by allowing the network to condition its predictions on a text sequence. The resulting system is able to generate highly realistic cursive handwriting in a wide variety of styles.},
+  date        = {2013-08-04},
+  eprint      = {http://arxiv.org/abs/1308.0850v5},
+  eprintclass = {cs.NE},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1308.0850v5:PDF},
+  keywords    = {cs.NE, cs.CL},
+}
+
+@Article{Luong2014,
+  author      = {Minh-Thang Luong and Ilya Sutskever and Quoc V. Le and Oriol Vinyals and Wojciech Zaremba},
+  title       = {Addressing the Rare Word Problem in Neural Machine Translation},
+  abstract    = {Neural Machine Translation (NMT) is a new approach to machine translation that has shown promising results that are comparable to traditional approaches. A significant weakness in conventional NMT systems is their inability to correctly translate very rare words: end-to-end NMTs tend to have relatively small vocabularies with a single unk symbol that represents every possible out-of-vocabulary (OOV) word. In this paper, we propose and implement an effective technique to address this problem. We train an NMT system on data that is augmented by the output of a word alignment algorithm, allowing the NMT system to emit, for each OOV word in the target sentence, the position of its corresponding word in the source sentence. This information is later utilized in a post-processing step that translates every OOV word using a dictionary. Our experiments on the WMT14 English to French translation task show that this method provides a substantial improvement of up to 2.8 BLEU points over an equivalent NMT system that does not use this technique. With 37.5 BLEU points, our NMT system is the first to surpass the best result achieved on a WMT14 contest task.},
+  date        = {2014-10-30},
+  eprint      = {http://arxiv.org/abs/1410.8206v4},
+  eprintclass = {cs.CL},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1410.8206v4:PDF},
+  keywords    = {cs.CL, cs.LG, cs.NE},
+}
+
+@InProceedings{fan2014tts,
+  author    = {Fan, Yuchen and Qian, Yao and Xie, Feng-Long and Soong, Frank K},
+  title     = {TTS synthesis with bidirectional LSTM based recurrent neural networks},
+  booktitle = {Fifteenth Annual Conference of the International Speech Communication Association},
+  year      = {2014},
+}
+
+@InProceedings{zhou2016attention,
+  author    = {Zhou, Peng and Shi, Wei and Tian, Jun and Qi, Zhenyu and Li, Bingchen and Hao, Hongwei and Xu, Bo},
+  title     = {Attention-based bidirectional long short-term memory networks for relation classification},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  year      = {2016},
+  volume    = {2},
+  pages     = {207--212},
+}
+
+@InProceedings{krizhevsky2012imagenet,
+  author    = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  title     = {Imagenet classification with deep convolutional neural networks},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2012},
+  pages     = {1097--1105},
+}
+
+@Article{zeiler2012adadelta,
+  author  = {Zeiler, Matthew D},
+  title   = {ADADELTA: an adaptive learning rate method},
+  journal = {arXiv preprint arXiv:1212.5701},
+  year    = {2012},
+}
+
+@InProceedings{turian2010word,
+  author       = {Turian, Joseph and Ratinov, Lev and Bengio, Yoshua},
+  title        = {Word representations: a simple and general method for semi-supervised learning},
+  booktitle    = {Proceedings of the 48th annual meeting of the association for computational linguistics},
+  year         = {2010},
+  pages        = {384--394},
+  organization = {Association for Computational Linguistics},
+}
+
+@Article{Zhang2015,
+  author      = {Dongxu Zhang and Dong Wang},
+  title       = {Relation Classification via Recurrent Neural Network},
+  abstract    = {Deep learning has gained much success in sentence-level relation classification. For example, convolutional neural networks (CNN) have delivered competitive performance without much effort on feature engineering as the conventional pattern-based methods. Thus a lot of works have been produced based on CNN structures. However, a key issue that has not been well addressed by the CNN-based method is the lack of capability to learn temporal features, especially long-distance dependency between nominal pairs. In this paper, we propose a simple framework based on recurrent neural networks (RNN) and compare it with CNN-based model. To show the limitation of popular used SemEval-2010 Task 8 dataset, we introduce another dataset refined from MIMLRE(Angeli et al., 2014). Experiments on two different datasets strongly indicates that the RNN-based model can deliver better performance on relation classification, and it is particularly capable of learning long-distance relation patterns. This makes it suitable for real-world applications where complicated expressions are often involved.},
+  date        = {2015-08-05},
+  eprint      = {http://arxiv.org/abs/1508.01006v2},
+  eprintclass = {cs.CL},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1508.01006v2:PDF},
+  keywords    = {cs.CL, cs.LG, cs.NE},
+}
+
+@Article{zhang2015relation,
+  author  = {Zhang, Dongxu and Wang, Dong},
+  title   = {Relation classification via recurrent neural network},
+  journal = {arXiv preprint arXiv:1508.01006},
+  year    = {2015},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

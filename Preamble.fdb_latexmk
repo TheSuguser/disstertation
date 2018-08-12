@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1528720028 "Preamble.tex" "Preamble.pdf" "Preamble" 1528720028
+  "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
+  "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1488397221 3873396 a7af3987b005d785f379b09e81128c19 ""
+  "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
+  "Preamble.aux" 1528716602 1088 58685c78893de98d04d3dc6c002a83b1 ""
+  "Preamble.tex" 1528720027 2922 60d315524cb26cf191575f9f403af72b ""
+  (generated)
+  "Preamble.log"
+  "Preamble.pdf"

@@ -1,0 +1,80 @@
+\chapter{Introduction}
+\label{introduction}
+
+\begin{quote}
+This chapter presents an overview of the dissertation. First, the motivation for this research is introduced along with the research topic. Second, the objectives of this research are discussed. Third, this chapter described the research methodology. This chapter ends by describing the structure of the whole dissertation.
+\end{quote}
+
+\section{Motivation}
+Stock price prediction has attracted much attention from researchers. Early methodologies of stock market prediction were mostly based on random walk and the Efficient Market Hypothesis(EMH)~\cite{fama1965behavior}. However, many research has critically examined EMH from the perspective of the Socionomic Theory of Finance (STF)~\cite{prechter2007financial}. Numerous research show that stock market prices do not follow a random walk and can indeed to some degree be predicted~\cite{Butler1992} thereby calling into question EMH's basic assumptions. Some recent research also suggests that news may be unpredictable but that very early indicators can be extracted can be extracted from online social media to predict changes in various economic and commercial indicators. For instance, Gruhl et al. ~\cite{Gruhl2005} found how online chat activity predicts book sales. Mishne and Rijke~\cite{mishne2006capturing} used assessments of blog sentiment to predict movie sales. Liu et al.~\cite{liu2007arsa} used a Probabilistic Latent Semantic Analysis (PLSA) model to extract indicators of sentiment from blogs to predict the future product sales. Google search queries have been shown to provide early indicators of disease infection rates and consumer spending~\cite{choi2012predicting}. Schumaker and Chen investigated the relations between breaking financial news and stock price changes~\cite{schumaker2009textual}.
+
+Although previous research shows the news most certainly influences stock market prices, no method has been discovered to accurately predict stock price movement. The difficulty of prediction lies in the complexities of modeling market dynamics. Even with a lack of consistent prediction methods, there have been some mild successes. On the one hand, most existing literature on financial text mining relies on identifying a predefined set of keywords and machine learning techniques. These methods typically assign weights to keywords in proportion to the movement of a share price. These types of analyses have shown a definite but weak ability to forecast the direction of share prices. On the other hand, most models proposed now are based on financial news. According to psychological research that emotions play an significant role in human decision-making~\cite{kahneman2013prospect}. Behavioral finance has provided further proof that financial decisions are significantly driven by emotion and mood~\cite{nofsinger2005social}. Thus, the stock price prediction can not only based on financial news but also other type of news. In this dissertation, the research focuses on the relation between fashion news and stock price movement of retail companies. 
+
+The first challenge is that fashion trend is a very subjective concept and is hard to be described quantitatively. From a machine learning perspective, fashion trend may depend on some hidden context, not given explicitly in the form of predictive features. In other words, tracking fashion trend from fashion news is a concept drift problem. Thus, it is necessary to create a system which can prove the concept problem exists and detect when the concept changes.
+
+The second challenge is that fashion trend can change both gradually and suddenly ~\cite{behling1985}. Namely, the underlying data distribution may change gradually or suddenly with time. Different from commonly used systems, which treat arriving instances as equally important contributors to the final concept, a effective learner in handling concept drift should be able to track such changes and to quickly adapt to them. Some algorithms may overreact to the noise, erroneously interpreting it as concept drift, while others may be highly robust to noise, adjusting to the changes too slowly. An ideal learner should combine robustness to noise and sensitivity to concept drift~\cite{widmer1996learning}.
+
+The third challenge is building a system to find the relation between fashion trend and stock market price movement of the retail companies. The popularity of fashion news can only be used as one of the features for the final model. It is necessary to extract more features from fashion new and other social media data to construct the final predictive model. The feature engineering is an important task in this dissertation.
+
+
+\section{Objective}
+Our research objective is to improve the accuracy of predicting the popularity of the fashion news by handling the concept drift problem and propose a system which can predict the stock price movement of retail companies based on fashion news. The main hypothesis of this research states that:
+
+\begin{quote}
+The fashion trend can be tracked by analyzing the popularity of the fashion news. It is a concept drift and can not be solved by commonly used system. Applying concept drift learner can increase the accuracy of fashion new popularity prediction. In addition, the fashion news popularity can be used to building a stock market price movement prediction system.
+\end{quote}
+
+To validate this hypothesis, there are three main tasks for this research:
+
+\subsection*{1. Prove the exist of the concept drift and detect when it happens}
+The first task is to prove the data distribution changes over time, which is the basis of the next experiment. With this methodology, the fashion trend can be described in a quantitative way. The visualization is also an important part of this task. This research, therefore, proposes a robust and automated fashion trend drift detector. 
+
+\subsection*{2. Build a news popularity prediction model to handle the concept drift problem}
+The second task is to construct a model to predict the fashion new popularity. As mentioned above, the distribution changes over time, the commonly used model is not suitable in this research. The objective of this task is to test different published system which can handle the concept drift problem and test their performance in the fashion news data. 
+
+\subsection*{3. Construct a prediction model based on fashion news analysis and other public data source}
+The final task is a combination of previous experiments. This task is to propose a system design for predicting the stock price movement of retail companies based on fashion trend change and social network data. This research presents a developer-friendly framework of stock market prediction implementing research-based Machine Learning methodologies in practical world.
+
+\section{Methodology}
+\subsection{Data used in this research}
+The dataset for this dissertation, crawled from the famous fashion websites http://www.hypebeast.com and http://www.hypebae.com, is a 12-years fashion news labeled with keywords, comments, and index of HYPE. The official definition of HYPE is 
+
+\begin{quote}
+HYPES is a real time popularity metric informing reader of what is trending
+\end{quote}
+
+It contains 182,294 fashion news from 2005-4-20 to 2018-6-14. Hypebeas.com is the most famous fashion and street culture website around world, attracting 9.4 million unique visitor per month and 44 million page views per month. Its social media account has 9.3 million followers. It can be said that HYPEBEAST is the most influential fashion and street culture media.
+
+The data of history stock market price is collected from Bloomberg. It contains history stock price of 8 public retail companies, including LVMH, PRADA S.P.A., KERING, BURBERRY GROUP and so on. Blommberg provides financial data and subscribers are allowed to access the Bloomberg Professional service to monitor and analyze the real-time financial data, search financial news, obtain price quotes and send electronic messages through the Bloomberg Messaging Service.
+
+\subsection{Model design}
+In this research, there are two models which need to be designed. The first one is the model that has the ability to detect the concept drift and predict the popularity of the fashion news. The second one is the model to predict the stock price movements of retail companies. 
+
+In the part of the first model, the Drift Detection Method (DDM) is applied to detect the concept drift. In this method we assume that examples arrive one at a time. The framework could be easy extended to situations where data comes on batches of examples. We consider the online learning framework. In this framework when an example becomes available, the decision model must take a decision (e.g. an action). Only after the decision has been taken the environment react providing feedback to the decision model (e.g. the class label of the example)~\cite{gama2004learning}.
+
+The fastText classification model is used as the base learner. The fastText is designed by the Facebook AI research (FAIR) lab and it is a open-sourcing library to help build scalable solutions for text representation and classification. FastText combines some of the most successful concepts introduced by the natural language processing and machine learning communities in the last few decades. These include representing sentences with bag of words and bag of n-grams, as well as using subword information, and sharing information across classes through a hidden representation. We also employ a hierachical softmax that takes advantage of the unbalanced distribution of the classes to speed up computation. These different concepts are being used for two different tasks: efficient text classification and learning word vector representations~\cite{joulin2016fasttext}.
+
+\subsection{Model implementation}
+All the models are implemented in Python. The deep learning model is implemented by Tensorflow and Keras. The raw data is collected by the website crawler implemented by Scrapy library. In addition, MongoDB is used as the database to store the raw data. 
+
+
+
+\section{Structure of the dissertation}
+Structure of this dissertation is as follows,
+
+\begin{itemize}
+	\item Chapter 2 reviews background information on a number of key concepts in the area of Machine Learning, concept drift problem, text classification problem and briefly describes the literature related to my research.
+
+	\item Chapter 3 describes the framework for concept drift detection and proposes a effective method to track the fashion trend. In addition, the visualization of fashion trend is shown in this chapter.
+
+	\item Chapter 4 proposes a model based on the conclusion from previous chapter to predict the popularity of the fashion news. The model test also shows in this chapter. The investigation of the model is presented as well.
+
+	\item Chapter 5 describes the system design of the  stock market price prediction system for public retail companies.
+
+	\item Chapter 6 summarises this research and outlines possibilities for future work.
+
+
+\end{itemize}
+
+% This just dumps some pseudolatin in so you can see some text in place.
+%\blindtext

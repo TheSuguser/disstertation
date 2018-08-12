@@ -1,0 +1,200 @@
+\begin{thebibliography}{10}
+
+\bibitem{zhang2015character}
+Xiang Zhang, Junbo Zhao, and Yann LeCun.
+\newblock Character-level convolutional networks for text classification.
+\newblock In {\em Advances in neural information processing systems}, pages
+  649--657, 2015.
+
+\bibitem{Greff2017}
+Klaus Greff, Rupesh~K. Srivastava, Jan Koutnik, Bas~R. Steunebrink, and Jurgen
+  Schmidhuber.
+\newblock Lstm: A search space odyssey.
+\newblock {\em {IEEE} Transactions on Neural Networks and Learning Systems},
+  28(10):2222--2232, oct 2017.
+
+\bibitem{wu2015analyzing}
+Bo~Wu and Haiying Shen.
+\newblock Analyzing and predicting news popularity on twitter.
+\newblock {\em International Journal of Information Management},
+  35(6):702--711, 2015.
+
+\bibitem{lerman2010using}
+Kristina Lerman and Tad Hogg.
+\newblock Using a model of social dynamics to predict popularity of news.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web}, pages 621--630. ACM, 2010.
+
+\bibitem{rizos2016predicting}
+Georgios Rizos, Symeon Papadopoulos, and Yiannis Kompatsiaris.
+\newblock Predicting news popularity by mining online discussions.
+\newblock In {\em Proceedings of the 25th International Conference Companion on
+  World Wide Web}, pages 737--742. International World Wide Web Conferences
+  Steering Committee, 2016.
+
+\bibitem{behling1985}
+Dorothy Behling.
+\newblock Fashion change and demographics: A model.
+\newblock {\em Clothing and Textiles Research Journal}, 4(1):18--24, 1985.
+
+\bibitem{widmer1996learning}
+Gerhard Widmer and Miroslav Kubat.
+\newblock Learning in the presence of concept drift and hidden contexts.
+\newblock {\em Machine learning}, 23(1):69--101, 1996.
+
+\bibitem{gama2004learning}
+Joao Gama, Pedro Medas, Gladys Castillo, and Pedro Rodrigues.
+\newblock Learning with drift detection.
+\newblock In {\em Brazilian symposium on artificial intelligence}, pages
+  286--295. Springer, 2004.
+
+\bibitem{wang2003mining}
+Haixun Wang, Wei Fan, Philip~S Yu, and Jiawei Han.
+\newblock Mining concept-drifting data streams using ensemble classifiers.
+\newblock In {\em Proceedings of the ninth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 226--235. AcM, 2003.
+
+\bibitem{klinkenberg2000detecting}
+Ralf Klinkenberg and Thorsten Joachims.
+\newblock Detecting concept drift with support vector machines.
+\newblock In {\em ICML}, pages 487--494, 2000.
+
+\bibitem{page1954continuous}
+Ewan~S Page.
+\newblock Continuous inspection schemes.
+\newblock {\em Biometrika}, 41(1/2):100--115, 1954.
+
+\bibitem{bifet2007learning}
+Albert Bifet and Ricard Gavalda.
+\newblock Learning from time-changing data with adaptive windowing.
+\newblock In {\em Proceedings of the 2007 SIAM international conference on data
+  mining}, pages 443--448. SIAM, 2007.
+
+\bibitem{bach2008paired}
+Stephen~H Bach and Marcus~A Maloof.
+\newblock Paired learners for concept drift.
+\newblock In {\em Data Mining, 2008. ICDM'08. Eighth IEEE International
+  Conference on}, pages 23--32. IEEE, 2008.
+
+\bibitem{ross2012exponentially}
+Gordon~J Ross, Niall~M Adams, Dimitris~K Tasoulis, and David~J Hand.
+\newblock Exponentially weighted moving average charts for detecting concept
+  drift.
+\newblock {\em Pattern recognition letters}, 33(2):191--198, 2012.
+
+\bibitem{sobhani2011new}
+Parinaz Sobhani and Hamid Beigy.
+\newblock New drift detection method for data streams.
+\newblock In {\em Adaptive and intelligent systems}, pages 88--97. Springer,
+  2011.
+
+\bibitem{nishida2007detecting}
+Kyosuke Nishida and Koichiro Yamauchi.
+\newblock Detecting concept drift using statistical testing.
+\newblock In {\em International conference on discovery science}, pages
+  264--269. Springer, 2007.
+
+\bibitem{michalski2013machine}
+Ryszard~S Michalski, Jaime~G Carbonell, and Tom~M Mitchell.
+\newblock {\em Machine learning: An artificial intelligence approach}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem{Goncalves2014}
+Paulo~M. Gon{\c{c}}alves, Silas~G.T. de~Carvalho~Santos, Roberto~S.M. Barros,
+  and Davi~C.L. Vieira.
+\newblock A comparative study on concept drift detectors.
+\newblock {\em Expert Systems with Applications}, 41(18):8144--8156, dec 2014.
+
+\bibitem{Li2017}
+Hang Li.
+\newblock Deep learning for natural language processing: advantages and
+  challenges.
+\newblock {\em National Science Review}, 5(1):24--26, sep 2017.
+
+\bibitem{Joulin2016}
+Armand Joulin, Edouard Grave, Piotr Bojanowski, and Tomas Mikolov.
+\newblock Bag of tricks for efficient text classification.
+\newblock 2016.
+
+\bibitem{boureau2010theoretical}
+Y-Lan Boureau, Jean Ponce, and Yann LeCun.
+\newblock A theoretical analysis of feature pooling in visual recognition.
+\newblock In {\em Proceedings of the 27th international conference on machine
+  learning (ICML-10)}, pages 111--118, 2010.
+
+\bibitem{sparck1972statistical}
+Karen Sparck~Jones.
+\newblock A statistical interpretation of term specificity and its application
+  in retrieval.
+\newblock {\em Journal of documentation}, 28(1):11--21, 1972.
+
+\bibitem{mikolov2013distributed}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3111--3119, 2013.
+
+\bibitem{bullinaria2013recurrent}
+John~A Bullinaria.
+\newblock Recurrent neural networks.
+\newblock {\em Neural Computation: Lecture}, 12, 2013.
+
+\bibitem{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
+\bibitem{Graves2013}
+Alex Graves.
+\newblock Generating sequences with recurrent neural networks.
+
+\bibitem{Luong2014}
+Minh-Thang Luong, Ilya Sutskever, Quoc~V. Le, Oriol Vinyals, and Wojciech
+  Zaremba.
+\newblock Addressing the rare word problem in neural machine translation.
+
+\bibitem{fan2014tts}
+Yuchen Fan, Yao Qian, Feng-Long Xie, and Frank~K Soong.
+\newblock Tts synthesis with bidirectional lstm based recurrent neural
+  networks.
+\newblock In {\em Fifteenth Annual Conference of the International Speech
+  Communication Association}, 2014.
+
+\bibitem{zhang2015relation}
+Dongxu Zhang and Dong Wang.
+\newblock Relation classification via recurrent neural network.
+\newblock {\em arXiv preprint arXiv:1508.01006}, 2015.
+
+\bibitem{zhou2016attention}
+Peng Zhou, Wei Shi, Jun Tian, Zhenyu Qi, Bingchen Li, Hongwei Hao, and Bo~Xu.
+\newblock Attention-based bidirectional long short-term memory networks for
+  relation classification.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)}, volume~2, pages
+  207--212, 2016.
+
+\bibitem{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{turian2010word}
+Joseph Turian, Lev Ratinov, and Yoshua Bengio.
+\newblock Word representations: a simple and general method for semi-supervised
+  learning.
+\newblock In {\em Proceedings of the 48th annual meeting of the association for
+  computational linguistics}, pages 384--394. Association for Computational
+  Linguistics, 2010.
+
+\bibitem{zeiler2012adadelta}
+Matthew~D Zeiler.
+\newblock Adadelta: an adaptive learning rate method.
+\newblock {\em arXiv preprint arXiv:1212.5701}, 2012.
+
+\bibitem{Zhang2015}
+Dongxu Zhang and Dong Wang.
+\newblock Relation classification via recurrent neural network.
+
+\end{thebibliography}
