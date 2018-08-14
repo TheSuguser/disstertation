@@ -92,6 +92,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT LinksAndMetadata.tex
 INPUT LinksAndMetadata.tex
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -335,6 +337,12 @@ INPUT ./attention_blstm.png
 OUTPUT Experiment1.aux
 INPUT Experiment1.tex
 INPUT Experiment1.tex
+INPUT hypes_year.png
+INPUT ./hypes_year.png
+INPUT ./hypes_year.png
+INPUT proportion_hypes.png
+INPUT ./proportion_hypes.png
+INPUT ./proportion_hypes.png
 OUTPUT Experiment2.aux
 INPUT Experiment2.tex
 INPUT Experiment2.tex

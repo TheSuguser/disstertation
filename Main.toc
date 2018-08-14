@@ -16,28 +16,23 @@
 \contentsline {subsection}{\numberline {2.3.2}Character-level Convolutional Network}{23}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Bidirectional Long-short Term Memory Network}{26}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Attention Based Bidirectional Long Short-Term Memory Network}{29}{subsection.2.3.4}
-\contentsline {chapter}{\numberline {3}Celebrity and Brand Influence on the Popularity of the Fashion News}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}Background}{32}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Motivation}{32}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Related Work}{32}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Statistical Analysis}{32}{section.3.2}
-\contentsline {section}{\numberline {3.3}Experiment}{32}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Dataset}{32}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Experiment Design}{32}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Results}{32}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Text Analysis to Predict the Fashion News Popularity}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Background}{33}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Motivation}{33}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Related Work}{33}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Experiment}{33}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Dataset}{33}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Experiment Design}{33}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Results}{33}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Conclusions and Future work}{34}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary of Contributions}{34}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Work}{34}{section.5.2}
-\contentsline {chapter}{Appendices}{35}{section.5.2}
-\contentsline {chapter}{\numberline {A}An Appendix About Stuff}{35}{appendix.A}
-\contentsline {chapter}{\numberline {B}Another Appendix About Things}{36}{appendix.B}
-\contentsline {chapter}{\numberline {C}Colophon}{37}{appendix.C}
-\contentsline {chapter}{Bibliography}{38}{appendix.C}
+\contentsline {chapter}{\numberline {3}Concept Drift Detection}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data Used}{32}{section.3.1}
+\contentsline {section}{\numberline {3.2}Model Design}{33}{section.3.2}
+\contentsline {section}{\numberline {3.3}Result}{33}{section.3.3}
+\contentsline {chapter}{\numberline {4}Text Analysis to Predict the Fashion News Popularity}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Background}{34}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Motivation}{34}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Related Work}{34}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Experiment}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Dataset}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Experiment Design}{34}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Results}{34}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Conclusions and Future work}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary of Contributions}{35}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Work}{35}{section.5.2}
+\contentsline {chapter}{Appendices}{36}{section.5.2}
+\contentsline {chapter}{\numberline {A}An Appendix About Stuff}{36}{appendix.A}
+\contentsline {chapter}{\numberline {B}Another Appendix About Things}{37}{appendix.B}
+\contentsline {chapter}{\numberline {C}Colophon}{38}{appendix.C}
+\contentsline {chapter}{Bibliography}{39}{appendix.C}
