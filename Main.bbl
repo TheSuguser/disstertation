@@ -241,4 +241,21 @@ Matthew~D Zeiler.
 Dongxu Zhang and Dong Wang.
 \newblock Relation classification via recurrent neural network.
 
+\bibitem{uysal2014impact}
+Alper~Kursat Uysal and Serkan Gunal.
+\newblock The impact of preprocessing on text classification.
+\newblock {\em Information Processing \& Management}, 50(1):104--112, 2014.
+
+\bibitem{Elwell2011}
+R.~Elwell and R.~Polikar.
+\newblock Incremental learning of concept drift in nonstationary environments.
+\newblock {\em {IEEE} Transactions on Neural Networks}, 22(10):1517--1531, oct
+  2011.
+
+\bibitem{sokolova2009systematic}
+Marina Sokolova and Guy Lapalme.
+\newblock A systematic analysis of performance measures for classification
+  tasks.
+\newblock {\em Information Processing \& Management}, 45(4):427--437, 2009.
+
 \end{thebibliography}

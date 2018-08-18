@@ -42,7 +42,7 @@ To decrease the training time, most of the concept drift detectors uses incremen
 \end{figure}
 
 
-\subsection{Concept Drift detectors}
+\subsection{Concept Drift Detectors}
 According to the number of citations, there are four popular concept drift detectors, DDM~\cite{gama2004learning}, EDDM~\cite{baena2006ear}, PHT~\cite{page1954continuous}, ADWIN~\cite{bifet2007learning}, Paired Learners~\cite{bach2008paired}, ECDD~\cite{ross2012exponentially}, DoF~\cite{sobhani2011new}, and STEPD~\cite{nishida2007detecting}. The most popular and effective method is the Drift Detection Method (DDM). Its mechanism is simple and easy to understand. DDM uses a base learning (decision tree) to classify the incoming instance and the the online error-rate is computed with the prediction result. In the probably approximately correct learning model~\cite{michalski2013machine}, it is assumed that the error rate of the base learner will decrease when the number of training instance increases if the distribution of the incoming instances is stationary. Thus, if the model detects a significant increase of the online error-rate, it suggests the concept drift occurs. 
 
 Suppose every instance in the form of $(\mathbf{x}_i, y_i)$. The base learner gives the prediction $\hat{y}_i$ that can be used to compute the error-rate $p_i$ and the standard deviation $s_i$ given by 
@@ -127,7 +127,7 @@ Char-CNN does not require the knowledges of words. Secondly, previous research p
 \end{figure}
 
 The architecture of the Char-CNN is shown in Figure \ref{char_cnn}. The model receives the text and quantize each character. This pre-process is called character quantization which is done by prescribing an alphabet of size $m$ for the raw text, and each character is quantized into one-hot encoding. For English text, we normally use the alphabet consisting 70 characters, which is presented as follows
-\begin{lstlisting}[language=Python]
+\begin{lstlisting}[language=Tex,basicstyle = \ttfamily, breaklines = true]
   abcdefghijklmnopqrstuvwxyz0123456789
   -,;.!?:"/\|_@#$&*~`+-=<>()[]{}'^%
 \end{lstlisting}

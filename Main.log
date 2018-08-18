@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.1)  13 AUG 2018 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.1)  18 AUG 2018 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,7 +409,26 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count138
 \@lastruleclass=\count139
 \@thisrulewidth=\dimen147
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count140
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count141
+\c@ALC@line=\count142
+\c@ALC@rem=\count143
+\c@ALC@depth=\count144
+\ALC@tlm=\skip50
+\algorithmicindent=\skip51
+)
 (./LinksAndMetadata.tex
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
@@ -467,13 +486,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen148
-\Hy@linkcounter=\count140
-\Hy@pagecounter=\count141
+\Hy@linkcounter=\count145
+\Hy@pagecounter=\count146
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count142
+\Hy@SavedSpaceFactor=\count147
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -485,7 +504,7 @@ Package hyperref Info: Plain pages OFF on input line 4461.
 Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count143
+\c@Hy@tempcnt=\count148
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -493,7 +512,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5044.
 \XeTeXLinkMargin=\dimen149
-\Fld@menulength=\count144
+\Fld@menulength=\count149
 \Field@Width=\dimen150
 \Fld@charsize=\dimen151
 Package hyperref Info: Hyper figures OFF on input line 6298.
@@ -505,28 +524,28 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count145
-\c@Item=\count146
-\c@Hfootnote=\count147
+\Hy@abspage=\count150
+\c@Item=\count151
+\c@Hfootnote=\count152
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
-\Fld@listcount=\count148
-\c@bookmark@seq@number=\count149
+\Fld@listcount=\count153
+\c@bookmark@seq@number=\count154
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip50
+\Hy@SectionHShift=\skip52
 ))
 (./FloatSettings.tex) (./BibSettings.tex) (./Main.aux (./Preamble.aux)
 (./Introduction.aux) (./Background.aux) (./Experiment1.aux) (./Experiment2.aux)
-(./Conclusions.aux) (./Appendices.aux))
+(./Conclusions.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -562,17 +581,17 @@ Package nag Info: Command \RaggedRight not defined, skipping amendment on input
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count150
+\scratchcounter=\count155
 \scratchdimen=\dimen152
 \scratchbox=\box32
-\nofMPsegments=\count151
-\nofMParguments=\count152
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count153
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count158
 \MPscratchDim=\dimen153
-\MPnumerator=\count154
-\makeMPintoPDFobject=\count155
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -603,7 +622,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count156
+\c@lstlisting=\count161
 \AtBeginShipoutBox=\box33
 Package hyperref Info: Link coloring OFF on input line 83.
 
@@ -613,7 +632,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count157
+\c@section@level=\count162
 )
 LaTeX Info: Redefining \ref on input line 83.
 LaTeX Info: Redefining \pageref on input line 83.
@@ -758,7 +777,7 @@ Chapter 2.
 ] [17]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
- <concept_drift.png, id=352, 383.7537pt x 249.3315pt>
+ <concept_drift.png, id=388, 383.7537pt x 249.3315pt>
 File: concept_drift.png Graphic file (type png)
 
 <use concept_drift.png>
@@ -785,14 +804,14 @@ Underfull \vbox (badness 5008) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<fasttext_structure.png, id=407, 241.1409pt x 115.3911pt>
+<fasttext_structure.png, id=443, 241.1409pt x 115.3911pt>
 File: fasttext_structure.png Graphic file (type png)
 
 <use fasttext_structure.png>
 Package pdftex.def Info: fasttext_structure.png used on input line 95.
 (pdftex.def)             Requested size: 241.1403pt x 115.39081pt.
  [22 <./fasttext_structure.png>]
-<char_cnn.png, id=416, 327.3831pt x 95.3964pt>
+<char_cnn.png, id=452, 327.3831pt x 95.3964pt>
 File: char_cnn.png Graphic file (type png)
  <use char_cnn.png>
 Package pdftex.def Info: char_cnn.png used on input line 126.
@@ -800,15 +819,48 @@ Package pdftex.def Info: char_cnn.png used on input line 126.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [23]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 132.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) [23]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 130.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 132.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 132.
  [24 <./char_cnn.png>]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -822,19 +874,19 @@ LaTeX Warning: No positions in optional float specifier.
 Underfull \vbox (badness 2478) has occurred while \output is active []
 
  [25]
-<rnn.png, id=452, 130.086pt x 135.8676pt>
+<rnn.png, id=491, 130.086pt x 135.8676pt>
 File: rnn.png Graphic file (type png)
  <use rnn.png>
 Package pdftex.def Info: rnn.png used on input line 194.
 (pdftex.def)             Requested size: 130.08566pt x 135.86725pt.
 
-<lstm.png, id=459, 224.037pt x 229.5777pt>
+<lstm.png, id=498, 224.037pt x 229.5777pt>
 File: lstm.png Graphic file (type png)
  <use lstm.png>
 Package pdftex.def Info: lstm.png used on input line 203.
 (pdftex.def)             Requested size: 224.03644pt x 229.57713pt.
  [26 <./rnn.png>]
-[27 <./lstm.png>] <blstm.png, id=485, 322.0833pt x 195.3699pt>
+[27 <./lstm.png>] <blstm.png, id=523, 322.0833pt x 195.3699pt>
 File: blstm.png Graphic file (type png)
  <use blstm.png>
 Package pdftex.def Info: blstm.png used on input line 253.
@@ -843,7 +895,7 @@ Package pdftex.def Info: blstm.png used on input line 253.
 [28]
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
- [29 <./blstm.png>] <attention_blstm.png, id=511, 370.0224pt x 184.5294pt>
+ [29 <./blstm.png>] <attention_blstm.png, id=549, 370.0224pt x 184.5294pt>
 File: attention_blstm.png Graphic file (type png)
 
 <use attention_blstm.png>
@@ -857,13 +909,13 @@ Underfull \vbox (badness 1975) has occurred while \output is active []
 
  (./Experiment1.tex
 Chapter 3.
-<hypes_year.png, id=538, 522.753pt x 263.0628pt>
+<hypes_year.png, id=576, 522.753pt x 263.0628pt>
 File: hypes_year.png Graphic file (type png)
  <use hypes_year.png>
 Package pdftex.def Info: hypes_year.png used on input line 11.
 (pdftex.def)             Requested size: 358.50227pt x 180.40565pt.
 
-<proportion_hypes.png, id=539, 497.9403pt x 263.0628pt>
+<proportion_hypes.png, id=577, 497.9403pt x 263.0628pt>
 File: proportion_hypes.png Graphic file (type png)
 
 <use proportion_hypes.png>
@@ -874,7 +926,7 @@ Package pdftex.def Info: proportion_hypes.png used on input line 19.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 25.
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32
@@ -883,11 +935,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [33 <./hypes_year.png> <./proportion_hypes.png>]
+Missing character: There is no ï in font pcrr7t!
+Missing character: There is no ¼ in font pcrr7t!
+Missing character: There is no š in font pcrr7t!
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 81.
+
+[36] [37] [38]) [39]
 \openout2 = `Experiment2.aux'.
 
  (./Experiment2.tex
 Chapter 4.
-) [34
+) [40
 
 
 
@@ -896,31 +961,14 @@ Chapter 4.
 
  (./Conclusions.tex
 Chapter 5.
-) [35
+) [41
 
 
 
-]
-\openout2 = `Appendices.aux'.
-
- (./Appendices.tex
-Appendix A.
-[36
+] (./Main.bbl [42
 
 
-
-]
-Appendix B.
-[37
-
-]
-Appendix C.
-) [38
-
-] (./Main.bbl [39
-
-
-] [40] [41] [42])
+] [43] [44] [45])
 
 Package nag Warning: Package times is obsolete.
 (nag)                Use the mathptmx, helvet (option scaled=.9), courier packa
@@ -930,28 +978,38 @@ ges instead.
 Package nag Warning: 1 complaints in total.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
-[43]
+[46]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./Main.aux (./Preamble.aux) (./Introduction.aux) (./Background.aux)
-(./Experiment1.aux) (./Experiment2.aux) (./Conclusions.aux) (./Appendices.aux))
+(./Experiment1.aux) (./Experiment2.aux) (./Conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 8A2F34C07C36F5D7932293754AD2460C;2531.
+(rerunfilecheck)             Checksum: DD72F076106CA641471537A892C9F636;3201.
+
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11020 strings out of 493014
- 165468 string characters out of 6133352
- 281036 words of memory out of 5000000
- 14065 multiletter control sequences out of 15000+600000
- 50288 words of font info for 106 fonts, out of 8000000 for 9000
+ 12110 strings out of 493014
+ 181413 string characters out of 6133352
+ 338760 words of memory out of 5000000
+ 15088 multiletter control sequences out of 15000+600000
+ 51206 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,44p,1530b,1353s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.Zhang2015} has been referenced but does not 
-exist, replaced by a fixed one
+ 45i,8n,71p,1530b,2024s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.sokolova2009systematic} has been referenced 
+but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Elwell2011} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.uysal2014impact} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Zhang2015} has been referenced but does not ex
+ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.zeiler2012adadelta} has been referenced but do
 es not exist, replaced by a fixed one
@@ -1084,15 +1142,17 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
-times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main.pdf (43 pages, 778355 bytes).
+2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Main.pdf (46 pages, 815237 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 218 named destinations out of 1000 (max. 500000)
- 350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 827 PDF objects out of 1000 (max. 8388607)
+ 734 compressed objects within 8 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
