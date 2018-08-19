@@ -23,23 +23,23 @@
 \contentsline {subsection}{\numberline {3.2.2}Base Learner}{36}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Concept Drift Detection Algorithm}{37}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Evaluation Step}{38}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Parameters Configuration}{39}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Experimental Results}{39}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Drift Identification}{39}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Predictive Accuracy}{39}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Multi-Input Deep Neural Network in Fashion News Popularity Prediction}{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}Date Used}{40}{section.4.1}
-\contentsline {section}{\numberline {4.2}Model Design and Implementation}{40}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Preprocessing}{40}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Word Embeddings}{40}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Bidirectional Gated Recurrent Unit Neural Networks}{40}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Pooling Layer}{40}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Classifying}{40}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Regularization}{40}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Model Training}{40}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Comparison Models}{40}{subsection.4.2.8}
-\contentsline {section}{\numberline {4.3}Experimental Results}{40}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusions and Future work}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary of Contributions}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Work}{41}{section.5.2}
-\contentsline {chapter}{Bibliography}{42}{section.5.2}
+\contentsline {subsection}{\numberline {3.2.5}Parameters Configuration}{40}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Experimental Results}{40}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Drift Identification}{40}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Predictive Accuracy}{40}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Multi-Input Deep Neural Network in Fashion News Popularity Prediction}{44}{chapter.4}
+\contentsline {section}{\numberline {4.1}Date Used}{44}{section.4.1}
+\contentsline {section}{\numberline {4.2}Model Design and Implementation}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Preprocessing}{44}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Word Embeddings}{44}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Bidirectional Gated Recurrent Unit Neural Networks}{44}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Pooling Layer}{44}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Classifying}{44}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Regularization}{44}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Model Training}{44}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Comparison Models}{44}{subsection.4.2.8}
+\contentsline {section}{\numberline {4.3}Experimental Results}{44}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusions and Future work}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary of Contributions}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Work}{45}{section.5.2}
+\contentsline {chapter}{Bibliography}{46}{section.5.2}

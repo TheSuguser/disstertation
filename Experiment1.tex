@@ -120,27 +120,44 @@ In the experiment, we use Drift Detection Method (DDM) proposed by Gama et al.~\
 
 DMM was proposed by the probably approximately correct learning model~\cite{michalski2013machine} that if the distribution of the data is stationary, the error rate of the classifier will decrease with the increase of the number of the instances. Therefore, a great increase of the error rate indicates the change of the distribution, namely, the concept drift. 
 
-For every instance at time $i$, the error-rate $p_i$ and the standard deviation $s_i = \sqrt{p_i(1-p_i)}$ are computed. $p_{min}$ and $s_{min}$ are stored when $p_i$ and $s_i$ reach their minimum. A warning level is reached if $p_i + s_i \geq p_{min} + \alpha \cdot s_{min} $ and a drift occurs when $p_i + s_i \geq p_{min} +\beta \cdot s_{min}$, where $\alpha$ and $\beta$ are number of standard deviation to warn ($\alpha$) and detect ($\beta$) drift. With confidence levels for warning and drift set to 95\% and 99\% respectively, $\alpha$ is $2$ and $\beta$ is $3$. When a warning level is reached, the instances after the warning level are stored. Once the drift occurs, the base learner will re-trained by the stored instance and the values of $p_{min}$ and $s_{min}$ will be reset. It often happens that the error rate increases and reach the warning level but decrease later. It is called false alarm. Once the false alarm occurs, the stored instances will be thrown away. Based on this mechanism, DDN keeps the base learner better adapted to the present data distribution.
+For every instance at time $i$, the error-rate $p_i$ and the standard deviation $s_i = \sqrt{p_i(1-p_i)}$ are computed. $p_{min}$ and $s_{min}$ are stored when $p_i$ and $s_i$ reach their minimum. A warning level is reached if $p_i + s_i \geq p_{min} + w \cdot s_{min} $ and a drift occurs when $p_i + s_i \geq p_{min} +d \cdot s_{min}$, where $w$ and $d$ are number of standard deviation to warn ($w$) and detect ($d$) drift. With confidence levels for warning and drift set to 95\% and 99\% respectively, $w$ is $2$ and $d$ is $3$. When a warning level is reached, the instances after the warning level are stored. Once the drift occurs, the base learner will re-trained by the stored instance and the values of $p_{min}$ and $s_{min}$ will be reset. It often happens that the error rate increases and reach the warning level but decrease later. It is called false alarm. Once the false alarm occurs, the stored instances will be thrown away. Based on this mechanism, DDN keeps the base learner better adapted to the present data distribution.
 
 DMM can be applied to any machine learning algorithm. It can be directly implemented inside the incremental learning algorithm and also can be implemented as a wrapper to batch learner. In this experiment, the DMM is implemented as a wrapper over the multinomial Bayes classifier that incrementally learns the dataset. Figure UNKOWN presents the process at time $i$
 
 
-%\begin{algorithm}
-%\caption{DMM with Bayes Classifier}
-%\label{ddm}
-%\begin{algorithmic}
-%\REQUIRE ~~\\
-%$\Phi$: Current Bayes Classifier \\
-%$\mathbf{x}_i, y_i$: Current example
-%\Begin
-%Let $\hat{y_i} \leftarrow \Phi(\mathbf{x}_i)$
-%Compute $p_i$ and $s_i$
-%\IF{$p_i + s_i < p_{min} + s_{min} $}
-%\STATE $p_min \leftarrow p_i$ 
+\begin{algorithm}
+\caption{DMM with Bayes Classifier}
+\label{ddm}
+\begin{algorithmic}
+\Require $\Phi$: Current Bayes Classifier, $\mathbf{x}_i, y_i$: Current example
+\State Let $\hat{y_i} \leftarrow \Phi(\mathbf{x}_i)$
+\State Compute $p_i$ and $s_i$
+
+\If{$p_i + s_i < p_{min} + s_{min} $}
+	\State $p_min \leftarrow p_i$ 
+\EndIf
+
+\If{$p_i + s_i < p_{min} + w \cdot s_{min}$}
+	\State Warning $\leftarrow$ False
+	\State Update $\Phi$ with $\mathbf{x}_i, y_i$
+\Else
+	\If{$p_i + s_i < p_{min} + d \cdot s_{min}$}
+		\If{Not Warning?}
+			\State buffer $\leftarrow \{\mathbf{x_i}, y_i\}$
+			\State Warning? $\leftarrow$ True
+		\Else
+			\State buffer $\leftarrow$ buffer $\cup \{\mathbf{x_i}, y_i\}$
+		\EndIf
+	\Else
+		\State Retrain $\Phi$ with the instances in the buffer
+		\State Warning? $\leftarrow$ False
+		Reset $p_min$ and $s_min$
+	\EndIf 
+\EndIf 
 %\STATE $s_min \leftarrow s_i$ 
 %\ENDIF
-%\end{algorithmic}
-%\end{algorithm}
+\end{algorithmic}
+\end{algorithm}
 
 \subsection{Evaluation Step}
 To evaluate the performance of the concept drift detector, we use an approach described by Elwell et al.~\cite{Elwell2011}. For each time $t$, the instance from time $t+1$ is used as the test data. We assume $T$ as the time step. For each time step $T$, there are specific amount of test instances. Then, a variety of metrics is computed for each time step to compared the performance between the concept drift detector and the base learner. 
@@ -159,7 +176,7 @@ For binary classification, recall is intuitively defined as
 \end{equation}
 where $tp$ is the number of correctly predicted positive instances, and $fn$ is the predicted correctly negative instance. However, our model is designed to deal with multiclass classification problem. The definitions of true positive ($tf$) and false negative ($fn$) are slightly different. The multiclass problem is separated into several binary classification problem. For class $i$, the true positive $tf_i$ and false negative ($fn_i$) are computed by treating class $i$ as the positive class and other classes are all negative. Then, we compute the micro-average recall as it aggregates the contributions of all classes to compute the average metric. The micro-average recall is defined as~\cite{sokolova2009systematic} 
 \begin{equation}
-\mbox{micro-Recall} = \frac{\sum_i tf_i}{\sum_i(tf_i + fn_i)}
+\mbox{micro-Recall} = \frac{\sum_i tp_i}{\sum_i(tp_i + fn_i)}
 \end{equation}
 
 In addition, we also compute the micro average F1 score which is the weighted average of micro-average precision and micro-average recall.
@@ -177,7 +194,82 @@ where $fp$ is number of negative instances which are predicted as positive.
 In addition to pay attention the prediction result of the instances at each time step, the overall performance of the model will be evaluated as well. Apart from accuracy, micro-average recall, and micro-average F1 score, the normalized confusion matrix will be computed and visualized.
 
 \subsection{Parameters Configuration}
+The base learner only has a parameter, the additive smoothing parameter, which needs to be tune. A 5-fold cross-validation is applied and $\alpha$ is set to $0.1$. In addition, based on 5-fold cross-validation, we keep the top $20000$ features as the input.
+
+The DDM has three parameters, including the minimum number of instances before permitting detecting change ($n$), the number of standard deviations to warn ($w$) and detect ($d$) drift. Testing is performed using following values for the parameters: $n\in\{15,30\}$,$w\in\{1.5,2.0\}$, and $d\in\{2.5,3.0\}$. The detectors with different parameters are presented in Table \ref{para_config}
+
+
+\begin{table}[]
+\caption{Parameter configuration of the drift detectors}
+\label{para_config}
+\centering
+\begin{tabular}{cccc}
+Detector & $n$  & $w$   & $d$   \\ \hline
+1        & 30 & 2.0 & 3   \\
+2        & 30 & 1.5 & 2.5 \\
+3        & 50 & 2.0 & 3.0 \\
+4        & 50 & 1.5 & 2.5
+\end{tabular}
+\end{table}
+
 
 \section{Experimental Results}
+
+\begin{figure}
+\centering
+\subfigure[Accuracy]{\includegraphics[width=0.9\textwidth]{drift_acc.png}}
+\subfigure[macro-average Recall]{\includegraphics[width=0.9\textwidth]{drift_recall.png}}
+\subfigure[macro-average F1 score]{\includegraphics[width=0.9\textwidth]{drift_f1.png}}
+\caption{Metrics of the detectors with different parameters.}
+\label{drift_metrics}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{drift_cm_Detector1.png}
+\includegraphics[width=0.45\textwidth]{drift_cm_Detector2.png}
+\includegraphics[width=0.45\textwidth]{drift_cm_Detector3.png}
+\includegraphics[width=0.45\textwidth]{drift_cm_Detector4.png}
+\includegraphics[width=0.45\textwidth]{drift_cm_Baselearner.png}
+\caption{Confusion matrix of different detectors}
+\label{drift_cm}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{num_cd.png}
+\caption{Number of concept drift detected at each time step}
+\label{num_cd}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{num_fa.png}
+\caption{Number of false alarm at each time step}
+\label{num_fa}
+\end{figure}
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{c|ccc}
+Model       & Average & Recall & F1     \\ \hline
+Detector 1  & 0.6018  & 0.4070 & 0.3921 \\
+Detector 2  & 0.6011  & 0.4066 & 0.3918 \\
+Detector 3  & 0.6128  & 0.4138 & 0.3985 \\
+Detector 4  & 0.6130  & 0.4139 & 0.3986 \\ \hline
+Base leaner & 0.6135  & 0.4357 & 0.4264
+\end{tabular}
+\caption{Averaged metrics of the detectors with different parameters}
+\label{tabel_drift_metrics}
+\end{table}
+
+In this section, the results of the experiment with the drift detection framework, concerning the prediction performance and the drift detection ability, are presented.
+
+Figure \ref{drift_metrics} shows graphics of accuracies, recalls, and F1 scores at each time step $T$ in the dataset. Each time step, there are $1000$ instance. Table \ref{tabel_drift_metrics} presents the averaged metrics of each detector and the base learner.
+
+The confusion matrix
+
+
 \subsection{Drift Identification}
 \subsection{Predictive Accuracy}
