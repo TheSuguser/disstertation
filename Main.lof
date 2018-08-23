@@ -1,21 +1,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The incremental learning framework at time $t$\nobreakspace {}\cite {vzliobaite2010learning}\relax }}{19}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Model structure of fastText for a sentence with $N$ n-gram features.\relax }}{22}{figure.caption.14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The model architecture of Character-level Convolutional Network\nobreakspace {}\cite {zhang2015character}\relax }}{24}{figure.caption.15}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The mechanism of the recurrent neural network\nobreakspace {}\cite {Greff2017}\relax }}{26}{figure.caption.18}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces The schematic of the LSTM unit\nobreakspace {}\cite {Greff2017}\relax }}{27}{figure.caption.19}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Model structure of bidirectional LSTM\relax }}{29}{figure.caption.20}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Model structure of attention-based bidirectional LSTM\relax }}{30}{figure.caption.21}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The incremental learning framework at time $t$\nobreakspace {}\cite {vzliobaite2010learning}\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Model structure of fastText for a sentence with $N$ n-gram features.\relax }}{13}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The model architecture of Character-level Convolutional Network\nobreakspace {}\cite {zhang2015character}\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The mechanism of the recurrent neural network\nobreakspace {}\cite {Greff2017}\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The schematic of the LSTM unit\nobreakspace {}\cite {Greff2017}\relax }}{18}{figure.caption.18}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Model structure of bidirectional LSTM\relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Model structure of attention-based bidirectional LSTM\relax }}{21}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces HYPES over years\relax }}{33}{figure.caption.22}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Proportion of each class over years\relax }}{33}{figure.caption.23}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Metrics of the detectors with different parameters.\relax }}{41}{figure.caption.26}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Accuracy}}}{41}{figure.caption.26}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {macro-average Recall}}}{41}{figure.caption.26}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {macro-average F1 score}}}{41}{figure.caption.26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Confusion matrix of different detectors\relax }}{42}{figure.caption.27}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Number of concept drift detected at each time step\relax }}{43}{figure.caption.28}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Number of false alarm at each time step\relax }}{43}{figure.caption.29}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces HYPES over years\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Proportion of each class over years\relax }}{24}{figure.caption.22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Metrics of the detectors with different parameters.\relax }}{32}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Accuracy}}}{32}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {macro-average Recall}}}{32}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {macro-average F1 score}}}{32}{figure.caption.25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Confusion matrix of different detectors\relax }}{33}{figure.caption.26}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Number of concept drift detected at each time step\relax }}{34}{figure.caption.27}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Number of false alarm at each time step\relax }}{34}{figure.caption.28}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Preprocessing of the deep learning model\relax }}{37}{figure.caption.32}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure of multi-input deep learning model\relax }}{38}{figure.caption.33}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Graphical illustration of the GRU\nobreakspace {}\cite {Chung2014}.\relax }}{39}{figure.caption.34}
 \addvspace {10\p@ }

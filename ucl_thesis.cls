@@ -400,7 +400,7 @@
 \def\department#1{\gdef\@department{#1}}
 \def\@department{\@latex@warning@no@line{No \noexpand\department given}}
 \renewcommand \maketitle{%
-    \setcounter{page}{1}%
+    %\setcounter{page}{1}%
     \thispagestyle{empty}%
     \@maketitle%
     \setcounter{footnote}{0}%

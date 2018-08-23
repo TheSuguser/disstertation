@@ -116,6 +116,7 @@ where $y_n$ is the ground truth of the example $n$. The model is trained by usin
 For a large number of classes, fastText uses hierarchical softmax to improve the efficiency in computing the linear classifier. As, in our experiment, the number of classes is so small that hierarchical softmax has no obvious advantages, we will not discuss it in this chapter.
 
 \subsection{Character-level Convolutional Network}
+\label{cnn_background}
 Different with most of the deep learning models which deal with the inputs on word level, Character-level Convolutional Network (Char-CNN) treats text as a kind of raw signal at character level and applies deep convolutional networks (ConvNets) on them. Compared with conventional machine learning methods and other deep learning models, Char-CNN has many advantages. Firstly, as the inputs are treated as signal on character-level, 
 Char-CNN does not require the knowledges of words. Secondly, previous research proves that the knowledge about syntactic or semantic structure of a language are not required in ConvNets. Thirdly, as the model accepts a sequence of characters which are encoded by prescribing an alphabet for the text, Char-CNN can deal with different language. Fourthly, the model only works on character level, thus, it can easily learn the abnormal character combinations such as emoticons and misspellings.
 
@@ -151,9 +152,7 @@ h(y) = \mbox{max}^{k}_{x=1} g(y\cdot d -x +c)
 In Char-CNN, there are 6 convoltional layers and the first two convolutional layers and the last convolutional layer followed by a max-pooling layer. The configurations of the convolutional layers are presented in Table \ref{config_char_cnn}
 
 \begin{table}[]
-\caption{The configurations of the convolutional layers in Character-level Convolutional Network}
 \centering
-\label{config_char_cnn}
 \begin{tabular}{ccccc}
 Layer & Feature & Kernel Size & Pooling Size &  \\ \cline{1-4}
 1     & 1024    & 7           & 3            &  \\
@@ -163,6 +162,8 @@ Layer & Feature & Kernel Size & Pooling Size &  \\ \cline{1-4}
 5     & 1024    & 3           & N/A          &  \\
 6     & 1024    & 3           & 3            & 
 \end{tabular}
+\caption{The configurations of the convolutional layers in Character-level Convolutional Network}
+\label{config_char_cnn}
 \end{table}
 
 Following the 6 convolutional layers, there are 3 fully connected layers. The non-linearity used in Char-CNN is the ReLUs which defined as 
@@ -171,15 +172,15 @@ Following the 6 convolutional layers, there are 3 fully connected layers. The no
 \end{equation}
 The configurations of the fully connected layers is shown in Table \ref{config_char_fl}
 \begin{table}[]
-\caption{The configurations of the fully-connected layers in Character-level Convolutional Network}
 \centering
-\label{config_char_fl}
 \begin{tabular}{cc}
 Layer & Output units      \\ \hline
 7     & 1024              \\
 8     & 1024              \\
 9     & Number of classes
 \end{tabular}
+\caption{The configurations of the fully-connected layers in Character-level Convolutional Network}
+\label{config_char_fl}
 \end{table}
 
 All the weights in the Char-CNN is initialed by a Gaussian distribution with mean of $0$ and standard deviation of $0.05$. Same as fastText, the Char-CNN is trained by stochastic gradient descent with batch size of 128. It also uses momentum to accelerate the descent. The 0.9 momentum is initialed with the step size of 0.01, which is halved 3 epochs for 10 times.
@@ -187,6 +188,7 @@ All the weights in the Char-CNN is initialed by a Gaussian distribution with mea
 Compared with traditional machine learning method in text classification, such as bag-of-words~\cite{sparck1972statistical}, bag-of-ngrams, bag-of-means on word embedding~\cite{mikolov2013distributed}, and some deep learning methods, such as word-level ConvNets, Long-short term memory, Character-level Convolutional Network is an effective method and it performs better than most of the traditional machine learning methods in large datasets~\cite{zhang2015character}.
 
 \subsection{Bidirectional Long-short Term Memory Network}
+\label{background_lstm}
 \begin{figure}
 \centering
 \caption{The mechanism of the recurrent neural network~\cite{Greff2017}}

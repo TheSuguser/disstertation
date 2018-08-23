@@ -18,6 +18,11 @@ Klaus Greff, Rupesh~K. Srivastava, Jan Koutnik, Bas~R. Steunebrink, and Jurgen
 \newblock {\em {IEEE} Transactions on Neural Networks and Learning Systems},
   28(10):2222--2232, oct 2017.
 
+\bibitem{Chung2014}
+Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, and Yoshua Bengio.
+\newblock Empirical evaluation of gated recurrent neural networks on sequence
+  modeling.
+
 \bibitem{wu2015analyzing}
 Bo~Wu and Haiying Shen.
 \newblock Analyzing and predicting news popularity on twitter.
@@ -237,10 +242,6 @@ Matthew~D Zeiler.
 \newblock Adadelta: an adaptive learning rate method.
 \newblock {\em arXiv preprint arXiv:1212.5701}, 2012.
 
-\bibitem{Zhang2015}
-Dongxu Zhang and Dong Wang.
-\newblock Relation classification via recurrent neural network.
-
 \bibitem{uysal2014impact}
 Alper~Kursat Uysal and Serkan Gunal.
 \newblock The impact of preprocessing on text classification.
@@ -257,5 +258,19 @@ Marina Sokolova and Guy Lapalme.
 \newblock A systematic analysis of performance measures for classification
   tasks.
 \newblock {\em Information Processing \& Management}, 45(4):427--437, 2009.
+
+\bibitem{Lin2017}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár.
+\newblock Focal loss for dense object detection.
+
+\bibitem{tompson2015efficient}
+Jonathan Tompson, Ross Goroshin, Arjun Jain, Yann LeCun, and Christoph Bregler.
+\newblock Efficient object localization using convolutional networks.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 648--656, 2015.
+
+\bibitem{Kingma2014}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
 
 \end{thebibliography}

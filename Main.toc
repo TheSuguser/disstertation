@@ -1,43 +1,44 @@
-\contentsline {chapter}{\numberline {1}Introduction}{10}{chapter.1}
-\contentsline {section}{\numberline {1.1}Motivation}{10}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objective}{12}{section.1.2}
-\contentsline {section}{\numberline {1.3}Methodology}{13}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Data used in this research}{13}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Model design}{13}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Model implementation}{14}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Structure of the dissertation}{14}{section.1.4}
-\contentsline {chapter}{\numberline {2}Background}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}Text Classification and News Popularity Prediction}{16}{section.2.1}
-\contentsline {section}{\numberline {2.2}Concept Drift}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Definition and Framework}{17}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Concept Drift Detectors}{18}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Deep Learning Models in Text Classification}{21}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}fastText}{22}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Character-level Convolutional Network}{23}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Bidirectional Long-short Term Memory Network}{26}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Attention Based Bidirectional Long Short-Term Memory Network}{29}{subsection.2.3.4}
-\contentsline {chapter}{\numberline {3}Concept Drift Detection}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data Used}{32}{section.3.1}
-\contentsline {section}{\numberline {3.2}Model Design}{33}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Preprocessing}{33}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Base Learner}{36}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Concept Drift Detection Algorithm}{37}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Evaluation Step}{38}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Parameters Configuration}{40}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Experimental Results}{40}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Drift Identification}{40}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Predictive Accuracy}{40}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Multi-Input Deep Neural Network in Fashion News Popularity Prediction}{44}{chapter.4}
-\contentsline {section}{\numberline {4.1}Date Used}{44}{section.4.1}
-\contentsline {section}{\numberline {4.2}Model Design and Implementation}{44}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Preprocessing}{44}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Word Embeddings}{44}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Bidirectional Gated Recurrent Unit Neural Networks}{44}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Pooling Layer}{44}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Classifying}{44}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Regularization}{44}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Model Training}{44}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Comparison Models}{44}{subsection.4.2.8}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objective}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Methodology}{4}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Data used in this research}{4}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Model design}{4}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Model implementation}{5}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Structure of the dissertation}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Text Classification and News Popularity Prediction}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Concept Drift}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Definition and Framework}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Concept Drift Detectors}{9}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Deep Learning Models in Text Classification}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}fastText}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Character-level Convolutional Network}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Bidirectional Long-short Term Memory Network}{17}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Attention Based Bidirectional Long Short-Term Memory Network}{20}{subsection.2.3.4}
+\contentsline {chapter}{\numberline {3}Concept Drift Detection}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data Used}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Model Design}{24}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Preprocessing}{24}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Base Learner}{27}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Concept Drift Detection Algorithm}{28}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Evaluation Step}{29}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Parameters Configuration}{31}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Experimental Results}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Drift Identification}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Predictive Accuracy}{31}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Multi-Input Deep Neural Network in Fashion News Popularity Prediction}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Used}{35}{section.4.1}
+\contentsline {section}{\numberline {4.2}Model Design and Implementation}{36}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Preprocessing}{36}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Word Embeddings}{37}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Bidirectional Gated Recurrent Unit Neural Networks}{39}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Pooling Layer}{40}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Classifying}{41}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Regularization}{42}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Evaluation Metrics}{42}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Model Training}{43}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}Comparison Models}{43}{subsection.4.2.9}
 \contentsline {section}{\numberline {4.3}Experimental Results}{44}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusions and Future work}{45}{chapter.5}
 \contentsline {section}{\numberline {5.1}Summary of Contributions}{45}{section.5.1}

@@ -2,22 +2,20 @@
 \makedeclaration
 
 \begin{abstract} % 300 word limit
-This dissertation investigates the use of computational finance and machine learning tools for identifying investment opportunities in fashion retail assets. The dissertation consists of three key experiments:
+This dissertation investigates the use of concept drift framework and deep learning techniques in fashion news popularity prediction. A new design of a deep neural work in text classification is also presented. The dissertation consists of two key experiments:
 
-\subsection*{Experiment 1: Celebrity and brand influence on the popularity of the fashion news}
-The first experiment, which focuses on the collection and the basic analysis of the dataset, sets the background to the following chapters. More specifically, it investigates the correlation between the celebrities and brands mentioned on the fashion news and the popularity of the news on hypebeast.com and hypebae.com. The datasets for this experiment are collected by the self-developed crawler from hypebeast.com and hypebae.com, which are the most influential websites on men's fashion and culture.  It contains 182,294 fashion news labeled by their categories, keywords which including the related celebrities and brands, and the index of popularity. 
+\subsection*{Experiment 1: Concept Drift Detection}
+The first experiment applies the concept drift detection algorithm to predict the popularity of the fashion news. More specifically, it investigates the performance between the concept drift detection framework and traditional incremental learning framework. Methodologies, such as drift detection method(DDM), Multinomial Bayes classifier, are proposed to classify the fashion news. The dataset for this experiment, collected by the web crawler, is the four-year fashion news from www.hypebeast.com. It contains 87,517 fashion news labeled by categories, keywords which including the related celebrities and brands, and the index of popularity. 
 
-\subsection*{Experiment 2: Text analysis to predict the popularity of the fashion news}
-The second experiment use NLP to create a classifier to analyse the news data, predict the popularity, and derive metrics, which could be used as the input for further modeling. This experiment explores various  algorithms for text classification for fashion news data. In this experiment, the dataset is performed basic pre-processing and spitted into train and validation sets. The feature engineering is also implemented which transforms the raw data into flat features and also create new features from the existing data. The effectiveness of traditional models are evaluated and the best performing classifier is used in the final model in the following experiment.
-
-\subsection*{Experiment 3: Stock price movement prediction model}
-The third experiment proposes a framework to predict the stock price movement using various data sources, including e-commerce data, social media, financial data, and identify investment opportunities. The framework is in the from of a [\emph{the introduction to the final algorithm I use in the model. As I did not start to implement the final model, I will keep it for later.}]. The implementation of the model is made available in the Python programing language.
-
+\subsection*{Experiment 2: Multi-Input Deep Neural Network in Fashion News Popularity Prediction}
+The second experiment proposes a new structure of deep neural network in text classification. The new model combines the advantages of fastText model and bidirectional long-term short memory model and resorts the techniques commonly used on images, such as focal loss, and spatial dropout. The effectiveness of the proposed model in improving the prediction performance is evaluated by comparing with four state-of-the-art deep learning models, including fastText, Character-level CNN, bidirectional LSTM, and attention based bidirectional LSTM. The proposed model is trained on the fashion news from 1/1/2014 to 31/3/2018 and evaluated on the news from 1/4/2018 to 13/6/2018.
 
 \section*{Contributions to Science}
-Due to lack of the understanding of how to analyze the fashion retailing, the investors often overlook the niche financial securities such as stocks of the public fashion companies. The main research contribution of this thesis is to explore new methodology to investment decision making based on different online data sources, such as e-commerce, social network, financial economic ,and fashion news.
+The major contribution of this dissertation is to offer a text-based deep learning model to predict the popularity of the fashion news. The prediction results can be used to 1) solve the cold start problem of the news providers' recommendation system; 2) Track the fashion trend quantitatively; 3) indicate the market attention to the fashion retail companies.
 
-This thesis contributes to the existing literature in a number of ways. First, this research proposes a new view to analyze the fashion news and investigates the correlation between the celebrities and fashion trends. Second, the research examines the effectiveness of different algorithm for fashion news popularity prediction and derive the metric for the stock movement prediction model. Third, the final framework is designed combining previous text analysis and other public online data sources, which are capable to undertake pre-investment analysis and recommend investment opportunities.
+This thesis contributes to the existing literature in a number of ways. First, this research investigates the application of the concept drift detection algorithm in real world data, especially the high-dimensional and noisy text data. Most published concept drift detection algorithms are evaluated in the low-dimensional and noise-free dataset and few of them were applied to text data. Second, the research proposed a new structure of the deep learning model in text prediction problem which could achieve a competitive results. Third, the experiment proves that the techniques commonly used on image data also have a wide application on text data. 
+
+
 
 \end{abstract}
 

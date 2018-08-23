@@ -160,6 +160,7 @@ DMM can be applied to any machine learning algorithm. It can be directly impleme
 \end{algorithm}
 
 \subsection{Evaluation Step}
+\label{cd_metrics}
 To evaluate the performance of the concept drift detector, we use an approach described by Elwell et al.~\cite{Elwell2011}. For each time $t$, the instance from time $t+1$ is used as the test data. We assume $T$ as the time step. For each time step $T$, there are specific amount of test instances. Then, a variety of metrics is computed for each time step to compared the performance between the concept drift detector and the base learner. 
 
 Firstly, we focus on the basic metric, the accuracy. For each test instance, the Bayes Classifier will return a boolean value indicating if it correctly classified the instance or not. For every time step $T$, the accuracy is defined as

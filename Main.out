@@ -28,7 +28,7 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{Drift Identification}{section.3.3}% 28
 \BOOKMARK [2][-]{subsection.3.3.2}{Predictive Accuracy}{section.3.3}% 29
 \BOOKMARK [0][-]{chapter.4}{Multi-Input Deep Neural Network in Fashion News Popularity Prediction}{}% 30
-\BOOKMARK [1][-]{section.4.1}{Date Used}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.1}{Data Used}{chapter.4}% 31
 \BOOKMARK [1][-]{section.4.2}{Model Design and Implementation}{chapter.4}% 32
 \BOOKMARK [2][-]{subsection.4.2.1}{Preprocessing}{section.4.2}% 33
 \BOOKMARK [2][-]{subsection.4.2.2}{Word Embeddings}{section.4.2}% 34
@@ -36,10 +36,11 @@
 \BOOKMARK [2][-]{subsection.4.2.4}{Pooling Layer}{section.4.2}% 36
 \BOOKMARK [2][-]{subsection.4.2.5}{Classifying}{section.4.2}% 37
 \BOOKMARK [2][-]{subsection.4.2.6}{Regularization}{section.4.2}% 38
-\BOOKMARK [2][-]{subsection.4.2.7}{Model Training}{section.4.2}% 39
-\BOOKMARK [2][-]{subsection.4.2.8}{Comparison Models}{section.4.2}% 40
-\BOOKMARK [1][-]{section.4.3}{Experimental Results}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Conclusions and Future work}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Summary of Contributions}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 44
-\BOOKMARK [0][-]{section.5.2}{Bibliography}{}% 45
+\BOOKMARK [2][-]{subsection.4.2.7}{Evaluation Metrics}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.8}{Model Training}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.9}{Comparison Models}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{Experimental Results}{chapter.4}% 42
+\BOOKMARK [0][-]{chapter.5}{Conclusions and Future work}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Summary of Contributions}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 45
+\BOOKMARK [0][-]{section.5.2}{Bibliography}{}% 46

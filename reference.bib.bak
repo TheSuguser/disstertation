@@ -428,18 +428,6 @@
   organization = {Association for Computational Linguistics},
 }
 
-@Article{Zhang2015,
-  author      = {Dongxu Zhang and Dong Wang},
-  title       = {Relation Classification via Recurrent Neural Network},
-  abstract    = {Deep learning has gained much success in sentence-level relation classification. For example, convolutional neural networks (CNN) have delivered competitive performance without much effort on feature engineering as the conventional pattern-based methods. Thus a lot of works have been produced based on CNN structures. However, a key issue that has not been well addressed by the CNN-based method is the lack of capability to learn temporal features, especially long-distance dependency between nominal pairs. In this paper, we propose a simple framework based on recurrent neural networks (RNN) and compare it with CNN-based model. To show the limitation of popular used SemEval-2010 Task 8 dataset, we introduce another dataset refined from MIMLRE(Angeli et al., 2014). Experiments on two different datasets strongly indicates that the RNN-based model can deliver better performance on relation classification, and it is particularly capable of learning long-distance relation patterns. This makes it suitable for real-world applications where complicated expressions are often involved.},
-  date        = {2015-08-05},
-  eprint      = {http://arxiv.org/abs/1508.01006v2},
-  eprintclass = {cs.CL},
-  eprinttype  = {arXiv},
-  file        = {:http\://arxiv.org/pdf/1508.01006v2:PDF},
-  keywords    = {cs.CL, cs.LG, cs.NE},
-}
-
 @Article{zhang2015relation,
   author  = {Zhang, Dongxu and Wang, Dong},
   title   = {Relation classification via recurrent neural network},
@@ -534,6 +522,62 @@
   number    = {1},
   pages     = {104--112},
   publisher = {Elsevier},
+}
+
+@Article{Elwell2011,
+  author    = {R. Elwell and R. Polikar},
+  title     = {Incremental Learning of Concept Drift in Nonstationary Environments},
+  journal   = {{IEEE} Transactions on Neural Networks},
+  year      = {2011},
+  volume    = {22},
+  number    = {10},
+  pages     = {1517--1531},
+  month     = {oct},
+  doi       = {10.1109/tnn.2011.2160459},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{sokolova2009systematic,
+  author    = {Sokolova, Marina and Lapalme, Guy},
+  title     = {A systematic analysis of performance measures for classification tasks},
+  journal   = {Information Processing \& Management},
+  year      = {2009},
+  volume    = {45},
+  number    = {4},
+  pages     = {427--437},
+  publisher = {Elsevier},
+}
+
+@Article{Chung2014,
+  author      = {Junyoung Chung and Caglar Gulcehre and KyungHyun Cho and Yoshua Bengio},
+  title       = {Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling},
+  abstract    = {In this paper we compare different types of recurrent units in recurrent neural networks (RNNs). Especially, we focus on more sophisticated units that implement a gating mechanism, such as a long short-term memory (LSTM) unit and a recently proposed gated recurrent unit (GRU). We evaluate these recurrent units on the tasks of polyphonic music modeling and speech signal modeling. Our experiments revealed that these advanced recurrent units are indeed better than more traditional recurrent units such as tanh units. Also, we found GRU to be comparable to LSTM.},
+  date        = {2014-12-11},
+  eprint      = {http://arxiv.org/abs/1412.3555v1},
+  eprintclass = {cs.NE},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1412.3555v1:PDF},
+  keywords    = {cs.NE, cs.LG},
+}
+
+@Article{Lin2017,
+  author      = {Tsung-Yi Lin and Priya Goyal and Ross Girshick and Kaiming He and Piotr Dollár},
+  title       = {Focal Loss for Dense Object Detection},
+  abstract    = {The highest accuracy object detectors to date are based on a two-stage approach popularized by R-CNN, where a classifier is applied to a sparse set of candidate object locations. In contrast, one-stage detectors that are applied over a regular, dense sampling of possible object locations have the potential to be faster and simpler, but have trailed the accuracy of two-stage detectors thus far. In this paper, we investigate why this is the case. We discover that the extreme foreground-background class imbalance encountered during training of dense detectors is the central cause. We propose to address this class imbalance by reshaping the standard cross entropy loss such that it down-weights the loss assigned to well-classified examples. Our novel Focal Loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. To evaluate the effectiveness of our loss, we design and train a simple dense detector we call RetinaNet. Our results show that when trained with the focal loss, RetinaNet is able to match the speed of previous one-stage detectors while surpassing the accuracy of all existing state-of-the-art two-stage detectors. Code is at: https://github.com/facebookresearch/Detectron.},
+  date        = {2017-08-07},
+  eprint      = {http://arxiv.org/abs/1708.02002v2},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1708.02002v2:PDF},
+  keywords    = {cs.CV},
+}
+
+@InProceedings{tompson2015efficient,
+  author    = {Tompson, Jonathan and Goroshin, Ross and Jain, Arjun and LeCun, Yann and Bregler, Christoph},
+  title     = {Efficient object localization using convolutional networks},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2015},
+  pages     = {648--656},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
